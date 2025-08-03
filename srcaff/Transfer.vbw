@@ -1,7 +1,0 @@
-frmTransfer = 55, 105, 923, 563, , 22, 29, 890, 487, C
-TelnetTTYClient = 154, 203, 1022, 661, , 132, 174, 997, 636, C
-Transfer = 152, 53, 1020, 511, 
-ITransfer = 132, 174, 1000, 632, 
-CTransferTelNet = 108, 109, 974, 567, 
-CLogger = 22, 29, 981, 416, 
-CTransferFTPI = 110, 145, 1066, 678, 

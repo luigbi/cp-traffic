@@ -10,3 +10,52 @@
 
 # Don't ignore .gitignore itself
 !.gitignore
+
+# VB6 IDE and workspace files
+*.vbw
+
+# Compiled executables and libraries
+*.exe
+*.dll
+*.ocx
+
+# Build artifacts
+*.exp
+*.lib
+*.pdb
+*.ilk
+*.obj
+*.map
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.log
+*~
+
+# Visual Studio/IDE generated files
+*.suo
+*.user
+*.sln.docstates
+
+# Debug directories (if any)
+Debug/
+Release/
+Bin/
+obj/
+
+# Package files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Log files
+*.log
+
+# Temporary Internet Files
+Temporary Internet Files/
+
+# System files
+Thumbs.db
+.DS_Store
