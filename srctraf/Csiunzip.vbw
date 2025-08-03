@@ -1,0 +1,10 @@
+CSIUnzip = 88, 116, 899, 728, Z, 0, 0, 0, 0, C
+CONSTDEF = 0, 0, 0, 0, C
+CSIUNZIPSubs = 66, 87, 877, 699, 
+VBTRVDEF = 0, 0, 0, 0, C
+VBTRVERR = 0, 0, 0, 0, C
+VBTRVOPE = 0, 0, 0, 0, C
+VBTRVTYP = 0, 0, 0, 0, C
+API = 22, 29, 833, 641, 
+ZIPSUBS = 44, 58, 855, 670, 
+CSIDir = 132, 174, 943, 786, C, 110, 145, 921, 757, C
