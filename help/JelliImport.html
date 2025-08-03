@@ -1,0 +1,438 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Jelli Import</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Jelli Import">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Jelli Import" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="JelliImport"
+		  data-hnd-context="462"
+		  data-hnd-title="Jelli Import"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="TrafficandAccountingSystem.html">Traffic and Accounting System</a></li><li><a href="TrafficImports.html">Traffic Imports</a></li><li><a href="AutomationImports.html">Automation Imports</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AutomationImports.html" title="Automation Imports" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="AudioVaultSatImport.html" title="Audio Vault Sat Import" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ProphetNextGenImport.html" title="Prophet Next Gen Import" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Jelli Import</h2>
+
+            <div class="main-content">
+                
+<p class="rvps27"><span class="rvts6">The Jelli Automation import file will take the exact aired Military spot times, convert them back to the stations’ local time zones, and update the scheduled times in Counterpoint. &nbsp;</span></p>
+<p class="rvps27"><span class="rvts6"><br/></span></p>
+<p class="rvps27"><span class="rvts6">The import file, Jelli-mmddyyAIR.txt (where mmddyy is the log date requested), will contain one comma-delimited record for each spot. Each field will be enclosed by double quotes, so that commas can be allowed within a field. &nbsp;The last field in each record will be a discrepancy code, added by Jelli to indicate if the spot has aired or been missed.</span></p>
+<p class="rvps27"><span class="rvts6"><br/></span></p>
+<p class="rvps27"><span class="rvts6">For each vehicle to export, go to the Vehicle Options screen-&gt;Log tab. &nbsp;Enter the full path were the export file will reside. &nbsp;The sub-folder name should be only the vehicle’s station code:</span></p>
+<p class="rvps27"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><img alt="" style="padding : 1px;" src="lib/NewItem1389.png"></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import Information</span></span></h2>
+<p class="rvps27"><span class="rvts6">The import drive path isn’t relevant on this screen since it’s not known what vehicle is being processed until the import file is selected. The user must navigate to the proper path to select a file to import. &nbsp;But there must be a sub-folder defined with the vehicle’s station code or the vehicle to process cannot be determined.</span></p>
+<p class="rvps27"><span class="rvts6"><br/></span></p>
+<p class="rvps27"><span class="rvts6">Filename: Jelli-mmddyyAIR.txt. All records terminated with c/r l/f. One record will exist for each spot, in a comma-delimited format. Alpha fields will be enclosed by double quotes, so that commas can be allowed within a field.</span></p>
+<p class="rvps27"><span class="rvts6"><br/></span></p>
+<p class="rvps27"><span class="rvts6">Sample record: "PETW2007",2012-05-14 11:45:01,030,"Live for Now","KYLI",1002,"PEPSI","OMD",297,1</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps86">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts32">Field Name</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts32">Format</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts32">Max Length</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts32">Example</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">ISCI Code</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">A/N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">20</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">ASBR3982</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Date and Start Time</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">yyyy-mm-dd hh:mm:ss, military</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">19</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">2012-06-12 19:15:00</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Length</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">3</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">060</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Creative Title</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">A/N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">30</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">End of year sale</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Station Code in Vehicle</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">A/N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">5</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">A34</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Contract #</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">9</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">123456789</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Advertiser Name</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">A/N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">30</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Ford</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Agency Name</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">A/N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">40</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Carat Agency</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">CSI Internal Spot ID</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">10</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">328385493</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Discrepancy Code</span></p>
+  </td>
+  <td width="135" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">N</span></p>
+  </td>
+  <td width="123" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">1</span></p>
+  </td>
+  <td width="138" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">1=aired, 0=missed</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps27"><span class="rvts6"><br/></span></p>
+<p class="rvps27"><span class="rvts6">The times in the Jelli system are in UTC format, but Jelli will convert the UTC times back to the station local time zones.&nbsp;</span></p>
+<p class="rvps27"><span class="rvts6"><br/></span></p>
+<p class="rvps27"><span class="rvts6">User must browse to the folder to select the file to import since all multiple shows for the same day will have the same filename.</span></p>
+<p class="rvps27"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

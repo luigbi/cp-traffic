@@ -1,0 +1,406 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Defining a Library</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Defining a Library">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Defining a Library" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="DefiningaLibrary"
+		  data-hnd-context="153"
+		  data-hnd-title="Defining a Library"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="TrafficandAccountingSystem.html">Traffic and Accounting System</a></li><li><a href="TrafficJobsScreens.html">Traffic Jobs Screens</a></li><li><a href="Programming.html">Programming</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="Programming.html" title="Programming" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="LibraryProgrammingEvents.html" title="Library Programming Events" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ProgrammingLinks.html" title="Programming Links" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Defining a Library</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">There are two ways to access the Library Events screen to add a new library: Double click “New” in the Library Box</span><span class="rvts35">, </span><span class="rvts6">or select</span><span class="rvts35"> </span><span class="rvts6">“New”</span><span class="rvts35"> </span><span class="rvts6">and</span><span class="rvts35"> </span><span class="rvts6">click “Define Library”.</span><span class="rvts35"> &nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">The Library Events Screen</span></span></h2>
+<p class="rvps2"><span class="rvts6">The Library Events Screen is where all elements are entered.&nbsp;</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Library Types</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts32">Regular</span><span class="rvts6"> is used for all libraries</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts32">Special </span><span class="rvts6">is used for those unique libraries that occur infrequently. Regular should be the only library used</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts32">Sports</span><span class="rvts6"> is no longer used. Sports libraries are entered as Regular libraries and Event Schedules</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts32">Standard</span><span class="rvts6"> </span><span class="rvts32">Format</span><span class="rvts6"> is used to define all ‘standard’ hour, day’s etc. as a model for regular libraries. Regular should be the only library used</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Library Views</span></span></h2>
+<p class="rvps2"><span class="rvts6">The Library Screen is defaulted to the “tabular view”, which allows you to enter the inventory information on a grid as shown below.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem367.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The “clock view” &nbsp;allows you to view your inventory on a standard clock.</span></p>
+<p class="rvps2"><img width="493" height="270" alt="" style="padding : 1px;" src="lib/NewItem365.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Header Information</span></span></h2>
+<p class="rvps2"><img width="596" height="31" alt="" style="padding : 1px;" src="lib/NewItem364.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Library Type</span><span class="rvts12"> is should always be Regular</span></li>
+ <li class="rvps4"><span class="rvts11">Library Name</span><span class="rvts12"> is used to identify the library. The name could be the show name or a daypart, for example.&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">This information is not seen anywhere except the programming screen</span></li>
+ </ul>
+ <li class="rvps4"><span class="rvts11">Length of Time</span><span class="rvts12"> is where you enter the total running length of the library; it is the amount of time from the first to the last item that is airing</span></li>
+ <li class="rvps4"><span class="rvts11">Clock Time </span><span class="rvts12">determines how the inventory times will be entered on the schedule grid</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">If left blank, inventory will be entered based on </span><span class="rvts11">Relative</span><span class="rvts12"> Time, meaning minutes, seconds after the hour</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">If you enter a starting hour in the</span><span class="rvts11"> </span><span class="rvts61">Clock</span><span class="rvts12"> </span><span class="rvts61">Time</span><span class="rvts12"> field, Inventory will be based on a clock hour. &nbsp;</span></li>
+ </ul>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Schedule Grid</span></span></h2>
+<p class="rvps2"><span class="rvts6">To enter library events, enter the information in the appropriate fields. A red arrow will always show you which line you are doing input for. Be sure to tab past the last field, comment on the last line entered, or the line will not be recognized as part of the library.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Time</span></p>
+<p class="rvps2"><span class="rvts6">Based on whether the Clock time field is filled in or left blank, you will either enter an exact time or the minutes/seconds after the hour in the Time field.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Event Types</span></p>
+<p class="rvps2"><span class="rvts6">The Event Types are the elements of a library, such as programs, contract avails, PSA avails, Promo avails, and comments or announcements for the log. You can select an Event Type from the dropdown, or define Event Types in the by selecting New and entering the Event Type’s information.</span></p>
+<p class="rvps2"><span class="rvts32"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Event Names</span></p>
+<p class="rvps2"><span class="rvts6">The Event Name can be the name of the program, the name of the segment, or can indicate a break, billboard, etc. You can select an existing Event Name from the dropdown, or create a new Name by selecting New and filling in the information.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem368.png"></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Program Exclusions and Avail Names</span></span></h2>
+<p class="rvps2"><span class="rvts6">This is a very important field that is referenced throughout Rate Card and the Proposal/Order screens.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Program Exclusions</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Program exclusions are used to flag a vehicle as having content that may be controversial. When entering a proposal/order, you can indicate that spots are not to be scheduled into a vehicle with particular Program Exclusions</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Typical Exclusions include controversial, religious, conservative talk, or actual names of programs such as Rush Limbaugh</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Program Exclusions are entered on Program lines</span></li>
+ </ul>
+ <li class="rvps4"><span class="rvts11">Avail Names</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Avail Names are used to identify an avail</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Typical Avail Names include Network, Local, or Billboard</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">There is no limit to the amount of Avail Names you can enter</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Special Dayparts called ‘Book Into’ or ‘Exclude’ dayparts can be set up to schedule spots into specific Named Avails</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Avail Names will also appear on the Spot Screen</span></li>
+ </ul>
+ <li class="rvps4"><span class="rvts11">Avail Delivery Choices</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Avail Names can be used to control where spots will and will not appear throughout the Traffic and Affiliate Systems</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Enter the Avail Name. This will be used during scheduling and will appear on the Spot screen</span></li>
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">Allow Non-Avail Buys- If set to No, only orders selling this Named Avail can book into this avail. If set to Yes, spots sold to a daypart that specifies that All Avails can book into this avail (but they will be pre-empted later if someone buys this specific Avail Name)</span></li>
+ </ul>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Sponsorship- This is no longer used. Its functionality is now handled through ‘Book Into’ or ‘Exclude’ dayparts</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Sort Code- Used to sort avail Names on the Avails Combo Report</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Select on Game Avails-</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps35"><span class="rvts12">If set to Yes, this Avail Name will appear pre-selected when running the Event Avails report (but can be de-selected)</span></li>
+  <li style="margin-left: 0px" class="rvps35"><span class="rvts12">If set to No, this Avail Name will not appear pre-selected when running the Event Avails report</span></li>
+ </ul>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Affiliate System- This controls whether spots with this avail name will be sent to the Affiliate System&nbsp;</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">ISCI EXPORT- Controls whether spots with this Avail Name will be included on the ISCI Export.</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Audio Delivery- Controls whether spots with this avail name will be sent over audio delivery systems, including X-Digital, Wegener, and OLA</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Automation Export- This controls whether this Avail Name will be included in the Automation Export</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="margin-left: 0px" class="rvps36"><span class="rvts12">If set to No, the spots will be placed in the missed file during the export</span></li>
+   <li style="margin-left: 0px" class="rvps37"><span class="rvts12">Setting this to No will also prevent avails from going out over the Engineering Export</span></li>
+  </ul>
+ </ul>
+</ul>
+<p class="rvps25"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Units</span><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Define the maximum number of units allowed to schedule into the avail. &nbsp;For example, if the avail is two minutes long, and it can be filled with either :60 or :30 second spots, the maximum amount of units would be 4; 4 :30 second spots = 2 minutes.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the vehicle is a unit-based vehicle, you can only define units and will not be able to define a length.</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Length</span><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Enter the maximum length of the event using H: M: S to indicate hours, minutes.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the vehicle is a unit-based vehicle, you can only define units and will not be able to define a length.</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps2"><span class="rvts32">True Time</span><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Currently unused</span></p>
+<p class="rvps2"><span class="rvts32"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Event ID</span><span class="rvts46">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">This field is used for certain logs, CP’s or Commercial Schedules to indicate a commercial ID.</span></p>
+<p class="rvps2"><span class="rvts35"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Program Comment</span><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">You can enter any standard comment to appear on the log with this line item, in the Program Comment field. Certain logs, CP’s, and Commercial Schedules include the defined comment. &nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Defining a Library’s Date and Time</span></span></h2>
+<p class="rvps2"><span class="rvts6">Once a library has been defined, it must be ‘dragged’ from the library table to the program calendar to define the start date, days and start time. &nbsp; &nbsp;&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click and hold the mouse until the word “drag” appears. Drag the library to the correct day and start time and release the mouse.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps38"><span class="rvts6">The Program Library Event Dates box will appear. Define the start time, days, and start date for the library. &nbsp;Multiple lines are available to allow you to schedule the library at various times and days if you have a recurring library or an event that airs on specific dates throughout the year. If this is a one-time-only or seasonal vehicle, enter an end date, otherwise, leave the default TFN (Till Further Notice).</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Scheduling &nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Scheduled libraries will appear in blue, while unscheduled libraries will appear in red. The display will always show you what is currently scheduled. If you want to only see what needs scheduling, you can change the toggle view from Current to Pending along the bottom of the screen.</span></p>
+<p class="rvps2"><img width="576" height="337" alt="" style="padding : 1px;" src="lib/NewItem360.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click the Schedule button and all new and changed libraries, Sell-to-Air links, and Delivery Links will appear. Highlight what you wish to schedule and click Schedule.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Altering an Existing Library</span></span></h2>
+<p class="rvps2"><span class="rvts6">When changing a library, select the library you want to change in the library box and click Define Library. This will bring you to the library screen where you can begin modifying the library. When you save the changes; you will automatically create a new version of the library (Version number/Library Name). You must drag it into the calendar and schedule it for it to take effect.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Duplicating a Library</span></span></h2>
+<p class="rvps2"><span class="rvts6">Duplicate is the easiest and quickest method to create a new library for a vehicle if the two libraries are similar. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem369.png"></p>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">To duplicate a program:</span></span></h4>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">Select the vehicle for which you will be creating the library</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">Click Duplicate</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">Select the vehicle that has the library you wish to duplicate</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">Select the library to be duplicated</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">Click Done. This will bring you to the Library Screen</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">You must define the new library name</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">Enter the library length</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">If necessary, enter any new library information and/or modify the existing events</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps39"><span class="rvts6">Click Done</span><span class="rvts35"> </span><span class="rvts6">or Save when complete</span></li>
+</ol>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Terminating a Library</span></span></h2>
+<p class="rvps2"><span class="rvts6">If you need to end a library, click on any of the white library schedule boxes across the days of the week until the word “drag” appears. Drag the library to the trash can icon that appears at the bottom of the screen.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Enter the termination date and check all days that are to be terminated. Click Done.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem357.png"></p>
+<p class="rvps3"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The programming will not be terminated until you schedule the changes.</span></p>
+<p class="rvps12"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

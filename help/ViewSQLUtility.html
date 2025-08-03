@@ -1,0 +1,350 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>View SQL Utility</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="View SQL Utility">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="View SQL Utility" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ViewSQLUtility"
+		  data-hnd-context="498"
+		  data-hnd-title="View SQL Utility"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="TrafficandAccountingSystem.html">Traffic and Accounting System</a></li><li><a href="TrafficUtilities.html">Traffic Utilities</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="TrafficUtilities.html" title="Traffic Utilities" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="TrafficAlerts.html" title="Traffic Alerts" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="AdvancedUse.html" title="Advanced Use" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>View SQL Utility</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">The View SQL program is a standalone utility that allows users to execute SQL statements on the Pervasive database to review or correct records. It can be accessed from the Traffic or Affiliate system via the Utilities menu.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When the utility launches, you will see the main screen, as shown below. Run SQL statements on this screen by entering a SQL statement in the SQL Statement window, then pressing the Run SQL button.</span></p>
+<p class="rvps2"><img width="505" height="398" alt="" style="padding : 1px;" src="lib/NewItem1551.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps12"><span class="rvts6">The results will appear on the Data Grid screen after processing is complete. (Note: the utility looks and works identically whether you run it from the Traffic or Affiliate menu.)</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Main Screen Overview</span></span></h2>
+<p class="rvps2"><span class="rvts6">This section describes all the options on the main screen.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">SQL Menu</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1550.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Open SQL</span><span class="rvts12">: Select this option to load a saved SQL statement. When you select Open SQL (or press F5), a browse window will appear, which you can use to browse to a saved SQL statement in .TXT format</span></li>
+ <li class="rvps4"><span class="rvts11">Save SQL</span><span class="rvts12">: Select this option to save the SQL statement that was entered in the SQL statement area. After selecting this option (or pressing Ctrl+S), a browse window will appear. Browse to a save location, enter a filename for the SQL statement you wish to save, and then press Save</span></li>
+ <li class="rvps4"><span class="rvts11">Run SQL</span><span class="rvts12">: Select this option (or press F9) to execute a SQL statement that has been entered in the SQL statement area</span></li>
+</ul>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Data Menu</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1549.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Export</span><span class="rvts12">: This button allows the results from the query to be saved to a comma delimited text file. It will prompt you for the save location and file name. It also prompts you whether to include columns names as the first line in the file or not. All fields are comma delimited with a double quote text qualifier</span></li>
+ <li class="rvps4"><span class="rvts11">Find Column</span><span class="rvts12">: This feature allows you to find and tag column names in the data grid</span></li>
+ <li class="rvps4"><span class="rvts11">Reset Columns</span><span class="rvts12">: This option resets highlighted columns in the data grid (after using the Find Column feature)</span></li>
+</ul>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Help Menu</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">About</span><span class="rvts12">: The About menu shows information about the View SQL program</span></li>
+</ul>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Main Menu Buttons</span></span></h3>
+<p class="rvps2"><span class="rvts6">Near the top of the main menu are four buttons used for different operations: Select Database, Open SQL, Save SQL, and Run SQL.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1548.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Select Database</span><span class="rvts12">: Opens the “Select Database” window and is used to select a database. All 32-bit DSN names found on the PC for Pervasive are shown. The DSN name, dictionary location and data location is provided in the list. To choose an item in the list, either double click on it or select it and press the “Select” button</span></li>
+ <li class="rvps4"><span class="rvts11">Open SQL</span><span class="rvts12">: Select this option to load a saved SQL statement</span></li>
+ <li class="rvps4"><span class="rvts11">Save SQL</span><span class="rvts12">: Select this option to save the SQL statement that has been entered in the SQL statement area</span></li>
+ <li class="rvps4"><span class="rvts11">Run SQL</span><span class="rvts12">: Select this option (or press F9) to execute a SQL statement that has been entered in the SQL statement area</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Note that the Open SQL, Save SQL, and Run SQL buttons perform the same task as the corresponding buttons on the SQL menu.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">SQL Statement Area</span></span></h2>
+<p class="rvps2"><span class="rvts6">Enter SQL Statements in this section. An example of a SQL Statement appears below.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="622" height="138" alt="" style="padding : 1px;" src="lib/NewItem1547.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Press the “New” tab to enter a new SQL Statement without overwriting a previously entered statement. You can have multiple tabs with different SQL statements on them.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Tables &amp; Fields</span></span></h2>
+<p class="rvps2"><span class="rvts6">The Tables &amp; Fields area – shown below – lists each database table on the left side of the window. After selecting a table, the fields within that table will appear in the center section of the window. The Tables and Fields area can be used for creating custom SQL statements.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1552.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Select, Update, Insert, Where, Join, and Delete buttons in the lower right corner can also be used to create custom SQL statements.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Data Grid</span></span></h2>
+<p class="rvps2"><span class="rvts6">After executing a “View” type SQL statement, any data found that matches the query will appear in the Data Grid, which is a View Only screen – in other words, no data can be changed on this screen. The data shown in this grid is sortable by clicking on any column header.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="497" height="244" alt="" style="padding : 1px;" src="lib/NewItem1545.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The time it took for the query to run appears in the window at the bottom of the screen.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">How to Enter and Run a SQL Statement</span></span></h2>
+<p class="rvps2"><span class="rvts6">This section describes how to enter and run a SQL Statement using the View SQL utility.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Step 1</span><span class="rvts6">: Enter the SQL statement you wish to run in the SQL Statement window.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">There are several ways to enter a SQL statement into the View SQL utility:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Open SQL button</span><span class="rvts12">: Load a SQL statement using the “Open SQL” button (or by pressing F5). This will allow you to browse to a .TXT file with a SQL statement on it, which you can then click on so that the SQL statement appears in the SQL Statement window of the utility</span></li>
+ <li class="rvps4"><span class="rvts11">Copy and Paste</span><span class="rvts12">: Copy and paste a SQL statement from another source – for example, from an email – into the SQL Statement window</span></li>
+ <li class="rvps4"><span class="rvts11">Manual</span><span class="rvts12">: If you are familiar with SQL, you can manually enter a SQL statement directly into the SQL Statement window</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="620" height="137" alt="" style="padding : 1px;" src="lib/NewItem1544.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Step 2: </span><span class="rvts6">Double check the SQL statement to confirm that there are no errors.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Step 3</span><span class="rvts6">: Press the Run SQL button (or press F9) to execute the SQL statement.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">There are two basic types of operations: View, and Update/Delete operations.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">View operations can be run at any time by any user, and will start automatically after pressing the Run SQL button or pressing F9</span></li>
+ <li class="rvps4"><span class="rvts12">To run an Update/Delete operation, you will need a password supplied by Counterpoint. For assistance running an Update/Delete operation, please contact </span><a class="rvts102" href="mailto:Support@counterpoint.net">Support@counterpoint.net</a><span class="rvts12">&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Step 4</span><span class="rvts6">: After the operation completes, you can view the results on the Data Grid.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps12"><span class="rvts110"><br/></span></p>
+<p class="rvps12"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

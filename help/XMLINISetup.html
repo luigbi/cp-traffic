@@ -1,0 +1,698 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>XML.INI Setup</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="XML.INI Setup">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="XML.INI Setup" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="XMLINISetup"
+		  data-hnd-context="605"
+		  data-hnd-title="XML.INI Setup"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="AffiliateSystem.html">Affiliate System</a></li><li><a href="AffiliateExports.html">Affiliate Exports</a></li><li><a href="X-Digital.html">X-Digital</a></li><li><a href="X-DigitalSetup.html">X-Digital Setup</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="X-DigitalSetup.html" title="X-Digital Setup" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="X-DigitalSetup.html" title="X-Digital Setup" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="AffiliatINISetup.html" title="Affiliat.INI Setup" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>XML.INI Setup</h2>
+
+            <div class="main-content">
+                
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps163"><span class="rvts12">Create an XML.INI file for your X-Digital Interface. &nbsp;A sample file can be found in the x:\csi\prod\setup\SampleINI folder.</span></li>
+ <li class="rvps163"><span class="rvts12">The XML.INI file must be placed in the same folder where the Affiliat.ini is placed. &nbsp;</span></li>
+ <li class="rvps163"><span class="rvts12">You need to determine if you will export to one X-Digital head end provider or if you need to export to two different X-Digital head end providers. &nbsp;</span></li>
+</ol>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Single Head End Provider</span></span></h2>
+<div class="rvps86">
+<table width="648" border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">[XDigital]&nbsp;</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is the header section of the single head end XML</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Host =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is the IP address of the server. &nbsp;X-Digital will supply this information to you. &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;207.114.205.20</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Port =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Port </span><span class="rvts300">Example: &nbsp;80</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">WebServiceURL =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">X-Digital will supply the URL of the server and service to you.</span></p>
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;/svc/XYZdService.asmx</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">DomainNameURL =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">X-Digital supplies this information. </span><span class="rvts300">Example: &nbsp;http://xnms.xdigital.com</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Security Token =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">X-Digital supplies this information. It is a 128 bit digital ID to prevent unauthorized transmissions to the server.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">XML Version =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is always 1.0 unless otherwise specified by X-Digital. &nbsp;</span><span class="rvts300">Example: &nbsp;1.0</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">XML Encoding =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is always “utf-8” unless specified otherwise by X-Digital. &nbsp;</span><span class="rvts300">Example: &nbsp;utf-8.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">SoapEnvolope =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This defines the SOAP header that surrounds the XML data. It should always be entered as shown unless specified otherwise by X-Digital. &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">SoapBody =</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is always entered as </span><span class="rvts300">soap:Body</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">AuthorizationChunkSize=</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This groups 4,000 spot insertion records and authorizations into one ‘soap envelope’, if not changed to a different value in this field. This is optional.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">LogFile =&nbsp;</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">All error messages are captured in a txt file which is stored in the LogFile location. If the location is not defined, the log file will be stored in the EXE folder. If the location is not valid, the export will continue, but the log file will not be created.&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts6">Change this value to match with the folder configuration</span></p>
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;X:\csi\prod\data\messages\XDigitalLog.txt</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">ClearLog =&nbsp;</span></p>
+  </td>
+  <td width="455" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Set it to N. This prevents the debug log from being overwritten.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" height="24" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">AllPorts =</span></p>
+  </td>
+  <td width="455" height="24" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps12"><span class="rvts6">If 0, the station will be not be able to change the port setting. If left out of the INI or greater than 0, all Ports will be available to the station. This is optional.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" height="24" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">ReceiverIDSource =</span></p>
+  </td>
+  <td width="455" height="24" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is an optional setting that determines from where the Site ID is obtained.&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+   <p class="rvps2"><span class="rvts6">A = use the Site ID defined on the agreement&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts6">B = use the agreement Site ID first if it exists, if not, use the Station Site ID&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts6">S = use the Station Site ID only&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts6">N = Don't send the Site ID&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" height="24" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Retries =</span></p>
+  </td>
+  <td width="455" height="24" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This determines the amount of times the system will attempt to resend the export if there are any issues. If not defined, the system defaults to three. This is optional.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" height="24" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">SharedHeadEndID =</span></p>
+  </td>
+  <td width="455" height="24" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">If the X-Digital head end is a shared head end, enter the shared head end ID here. For example, SharedHeadEnd = 1. Counterpoint support maintains a list of shared head end IDs. Please contact Counterpoint support for additional information on shared head ends. If the X-Digital configuration does not use a shared head end, this line should not be added.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps86"><span class="rvts6"><br/></span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Single Head End Example</span></span></h2>
+<p class="rvps125"><span class="rvts168">[XDigital]</span></p>
+<p class="rvps125"><span class="rvts168">Host = 207.114.205.20</span></p>
+<p class="rvps125"><span class="rvts168">Port = 80</span></p>
+<p class="rvps125"><span class="rvts168">WebServiceURL = /svc/XYZdService.asmx</span></p>
+<p class="rvps125"><span class="rvts168">DomainNameURL = http://xnms.xdigital.com</span></p>
+<p class="rvps125"><span class="rvts168">SecurityToken = 9452831D-C072-4E1C-8E23-689A491156BC</span></p>
+<p class="rvps125"><span class="rvts168">XMLVersion = 1.0</span></p>
+<p class="rvps125"><span class="rvts168">XMLEncoding = utf-8</span></p>
+<p class="rvps125"><span class="rvts168">SoapEnvolope = xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/'&nbsp;</span></p>
+<p class="rvps125"><span class="rvts168">AuthorizationChunkSize = 4000</span></p>
+<p class="rvps125"><span class="rvts168">xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'</span></p>
+<p class="rvps125"><span class="rvts168">SoapBody = soap:Body</span></p>
+<p class="rvps125"><span class="rvts168">LogFile = D:\csi\v60\Data\Messages\XDigitalLog.txt</span></p>
+<p class="rvps125"><span class="rvts168">ClearLog = N</span></p>
+<p class="rvps125"><span class="rvts168">AllPorts = 0</span></p>
+<p class="rvps125"><span class="rvts168">Retries = 3</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Dual Head End XML Sections</span></span></h2>
+<p class="rvps2"><span class="rvts6">BackOffice: This section is defined for game agreements and used to send station information&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Vantive: This section is defined for non-game agreements&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">XDigital-CU: This section is defined for the use of spot insertions and programs (non-sports only)&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">X-Digital-CL: This section is defined for the use of spot insertions and file delivery&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Multiple Head End Provider</span></span></h2>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps163"><span class="rvts12">Define two separate [XDigital] sections as follows:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">[XDigital-CU] for Cumulus</span></li>
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">[XDigital-CL] for Clear Channel</span></li>
+ </ol>
+ <li class="rvps163"><span class="rvts12">Add a Provider line with the name of the provider</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">Provider = Cumulus</span></li>
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">Provider = Clear Channel</span></li>
+ </ol>
+ <li class="rvps163"><span class="rvts12">This will allow you to select the correct provider from the export screen</span></li>
+</ol>
+<p class="rvps10"><span class="rvts6"><br/></span></p>
+<div class="rvps77">
+<table width="654" border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">[XDigital-XX] =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Define provider. &nbsp;Examples for Cumulus or Clear Channel: &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;[XDigital-CU]&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;[XDigital-CL]</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Provider =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;Cumulus</span></p>
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;Clear Channel</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Host =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is the IP address of the server. &nbsp;X-Digital will supply this information to you. </span><span class="rvts300">Example: &nbsp;207.114.205.20</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Port =</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Port # &nbsp;</span><span class="rvts300">Example: &nbsp;80</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">WebServiceURL =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">X-Digital will supply the URL of the server and service to you.</span></p>
+   <p class="rvps2"><span class="rvts300">Example: &nbsp;/svc/XYZdService.asmx</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">DomainNameURL =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">X-Digital supplies this information. &nbsp;</span><span class="rvts300">Example: &nbsp;http://xnms.xdigital.com</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Security Token =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">X-Digital supplies this information. &nbsp; It is a 128 bit digital ID to prevent unauthorized transmissions to the server.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">XML Version =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is always “1.0” unless otherwise specified by X-Digital. &nbsp;</span><span class="rvts300">Example: &nbsp;1.0</span><span class="rvts299">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">XML Encoding =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is always “utf-8” unless specified otherwise by X-Digital. &nbsp;</span><span class="rvts300">Example: &nbsp;utf-8.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">SoapEnvolope =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This defines the SOAP header that surrounds the XML data. It should always be entered as shown unless specified otherwise by XDigital. &nbsp;</span></p>
+   <p class="rvps2"><span class="rvts300">Ex: &nbsp;xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">SoapBody =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This is always entered as </span><span class="rvts300">Ex:&nbsp;</span><span class="rvts6"> </span><span class="rvts300">soap:Body</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">LogFile =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Change this value to match with the folder configuration</span></p>
+   <p class="rvps2"><span class="rvts300">Ex: &nbsp;X:\csi\prod\data\messages\XDigitalLog.txt</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">ClearLog =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This value should always be N &nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">ReceiverIDSource =</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps80"><span class="rvts125">This is an optional setting that determines from where the Site ID is obtained.&nbsp;</span></p>
+   <p class="rvps80"><span class="rvts124"><br/></span></p>
+   <p class="rvps2"><span class="rvts6">A = use the Site ID defined on the agreement&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts6">B = use the agreement Site ID first if it exists, if not, use the Station Site ID</span></p>
+   <p class="rvps2"><span class="rvts6">S = use the Station Site ID only&nbsp;</span></p>
+   <p class="rvps2"><span class="rvts6">N = Don't send the Site ID&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">AllPorts =&nbsp;</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps80"><span class="rvts125">If 0, the station will be not be able to change the port setting. If left out of the INI or greater than 0, all Ports will be available to the station. This is Optional.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">AuthorizationChunkSize=</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This groups 4,000 spot insertion records and authorizations into one ‘soap envelope’, if not changed to a different value in this field. This is optional.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Retries =</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">This determines the amount of times the system will attempt to resend the export if there are any issues. If not defined, the system defaults to three. This is optional.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="165" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">SharedHeadEndID =</span></p>
+  </td>
+  <td width="461" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">If the X-Digital head end is a shared head end, enter the shared head end ID here. For example, SharedHeadEnd = 1. Counterpoint support maintains a list of shared head end IDs. Please contact Counterpoint support for additional information on shared head ends. If the X-Digital configuration does not use a shared head end, this line should not be added.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Multiple Head End Example</span></span></h2>
+<p class="rvps2"><span class="rvts6">[XDigital-CU]</span></p>
+<p class="rvps2"><span class="rvts6">Provider = Cumulus</span></p>
+<p class="rvps2"><span class="rvts6">Host = 207.114.205.20</span></p>
+<p class="rvps2"><span class="rvts6">Port = 80</span></p>
+<p class="rvps2"><span class="rvts6">WebServiceURL = /svc/XYZdService.asmx</span></p>
+<p class="rvps2"><span class="rvts6">;This URL is for Cumulus only</span></p>
+<p class="rvps2"><span class="rvts6">DomainNameURL = http://xnms.xdigital.com</span></p>
+<p class="rvps2"><span class="rvts6">SecurityToken = XXXX</span></p>
+<p class="rvps2"><span class="rvts6">;get the security token from X-Digital</span></p>
+<p class="rvps2"><span class="rvts6">XMLVersion = 1.0</span></p>
+<p class="rvps2"><span class="rvts6">XMLEncoding = utf-8</span></p>
+<p class="rvps2"><span class="rvts6">SoapEnvolope = xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'</span></p>
+<p class="rvps2"><span class="rvts6">SoapBody = soap:Body</span></p>
+<p class="rvps2"><span class="rvts6">LogFile = D:\csi\v60\Data\Messages\XDigitalLog.txt</span></p>
+<p class="rvps2"><span class="rvts6">ClearLog = N</span></p>
+<p class="rvps2"><span class="rvts6">ReceiverIDSource = S&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">AllPorts = 0</span></p>
+<p class="rvps2"><span class="rvts6">AuthrizationChunkSize = 4000</span></p>
+<p class="rvps2"><span class="rvts6">Retries = 3</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">[XDigital-CL]</span></p>
+<p class="rvps2"><span class="rvts6">Provider = Clear Channel</span></p>
+<p class="rvps2"><span class="rvts6">Host = 207.114.205.20</span></p>
+<p class="rvps2"><span class="rvts6">WebServiceURL = /svc/backoffice.asmx</span></p>
+<p class="rvps2"><span class="rvts6">;This URL is for non-Cumulus head ends, using the by Break avail form</span></p>
+<p class="rvps2"><span class="rvts6">DomainNameURL = http://xnms.xdigital.com</span></p>
+<p class="rvps2"><span class="rvts6">SecurityToken = XXXX</span></p>
+<p class="rvps2"><span class="rvts6">;get the security token from X-Digital</span></p>
+<p class="rvps2"><span class="rvts6">XMLVersion = 1.0</span></p>
+<p class="rvps2"><span class="rvts6">XMLEncoding = utf-8</span></p>
+<p class="rvps2"><span class="rvts6">SoapEnvolope = xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'</span></p>
+<p class="rvps2"><span class="rvts6">SoapBody = soap:Body</span></p>
+<p class="rvps2"><span class="rvts6">LogFile = D:\csi\v60\Data\Messages\XDigitalLog.txt</span></p>
+<p class="rvps2"><span class="rvts6">ClearLog = N</span></p>
+<p class="rvps2"><span class="rvts6">AuthorizationChunkSize = 4000</span></p>
+<p class="rvps2"><span class="rvts6">Retries = 3</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If using a dual head end set up, the spot insertion file will show the advertiser name, followed by the prefix, ISCI, and the word mp2, making it match the information exported using the copy export (run from the Traffic Export menu).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Copy Export example:&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">C001,A,AC_Delco,AC_Delco,30,ACD-1001-30&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Vantive XML.INI</span></span></h2>
+<p class="rvps2"><span class="rvts6">If there are vehicles using the ISCI avail form and the Cumulus export, and they need to export station and/or agreement information, you must define the Vantive section in the XML.INI and activate the appropriate settings Affiliate Site Options.</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">[Vantive]&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Host =xxx.yyy.zzz.nn&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Port = 80&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">WebServiceURL = /svc/VantiveService.asmx&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">SecurityToken=XXXX&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">XMLVersion = 1.0&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">XMLEncoding = utf-8&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">DomainNameURL = http://xnms.xdigital.com&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">SoapEnvolope = xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">SoapBody = soap:Body .&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">LogFile = Z:\csi\prod\Data\Messages\XDigitalLog.txt&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">ClearLog = N</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">BackOffice XML.INI</span></span></h2>
+<p class="rvps2"><span class="rvts6">The station information gets sent using a section in the XML.ini called "BackOffice."&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The actual INI settings should replace the placeholder values below with the actual values. The Host, Port, WebServiceURL, SecurityToken, and LogFile path may all require updating.</span></p>
+<p class="rvps2"><span class="rvts6">[BackOffice]</span></p>
+<p class="rvps2"><span class="rvts6">Host = xx.xx.xx.xx</span></p>
+<p class="rvps2"><span class="rvts6">Port = 80</span></p>
+<p class="rvps2"><span class="rvts6">WebServiceURL = /svc/backoffice.asmx</span></p>
+<p class="rvps2"><span class="rvts6">SecurityToken=xxxx</span></p>
+<p class="rvps2"><span class="rvts6">XMLVersion = 1.0</span></p>
+<p class="rvps2"><span class="rvts6">XMLEncoding = utf-8</span></p>
+<p class="rvps2"><span class="rvts6">DomainNameURL = http://xnms.xdigital.com</span></p>
+<p class="rvps2"><span class="rvts6">SoapEnvolope = xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'</span></p>
+<p class="rvps2"><span class="rvts6">SoapBody = soap:Body&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">LogFile = x:\csi\prod\Data\Messages\XDigitalLog.txt</span></p>
+<p class="rvps2"><span class="rvts6">ClearLog = N</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">This section is also required for sending agreement information for agreements with non-game vehicles that are using the ISCI avail form with a dual head end configuration and by the X-Digital import.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps14"><span class="rvts6"><br/></span></p>
+<p class="rvps10"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

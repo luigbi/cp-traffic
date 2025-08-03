@@ -1,0 +1,879 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Affiliate Pledge Import</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Affiliate Pledge Import">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Affiliate Pledge Import" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="AffiliatePledgeImport"
+		  data-hnd-context="610"
+		  data-hnd-title="Affiliate Pledge Import"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="AffiliateSystem.html">Affiliate System</a></li><li><a href="AffiliateImports.html">Affiliate Imports</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AffiliateImports.html" title="Affiliate Imports" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="AffiliateImports.html" title="Affiliate Imports" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="AgreementData.html" title="Agreement Data" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Affiliate Pledge Import</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">The affiliate pledge import will import pledge information for agreements that have been previously added to the Affiliate system but with the pledges not previously defined.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import Rules</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">There must be Live agreements defined in the system</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Agreements added via Fast Add must be Live</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">No pledge information can be entered into the Pledge tab prior to the initial import</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">If pledge information exists for the agreement in Counterpoint, pledge records in the CSV will be ignored</span></li>
+ </ul>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">CSV File Parameters&nbsp;</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">The CSV must be formatted without spaces between the comma and the next value</span></li>
+ <li class="rvps4"><span class="rvts12">Time fields can be in HH:MM:SS format, or HH:MM PM/AM, for example &nbsp;7:24:30 AM or 7:24 AM</span></li>
+ <li class="rvps4"><span class="rvts12">This includes Start and End Feed and Pledge times&nbsp;</span></li>
+ <li class="rvps4"><span class="rvts12">Feed times and pledge times must be provided in the station’s local time</span></li>
+ <li class="rvps4"><span class="rvts12">All information pertaining to a single agreement must be sorted together&nbsp;</span></li>
+ <li class="rvps4"><span class="rvts12">A single agreement's information cannot be interlaced within the CSV</span></li>
+ <li class="rvps4"><span class="rvts12">Pledges must account for the entirety of a program feed</span></li>
+ <li class="rvps4"><span class="rvts12">A single avail within a pledge that spans multiple days can have multiple statuses</span></li>
+ <li class="rvps4"><span class="rvts12">For example, there could be a vehicle with a 60 second break at 9:16am on Monday through Sunday. On the pledge import for a station, the 9am break is set to "Air Live" on Monday through Friday, and "Not Carried" on Saturday and Sunday</span></li>
+ <li class="rvps4"><span class="rvts12">Each status types must be its own line in the CSV import</span></li>
+</ul>
+<p class="rvps4"><span class="rvts12"><br/></span></p>
+<p class="rvps4"><span class="rvts12">"KAAA-FM",147,"ABC",23,114,1,0,0,0,0,0,1,0,09:16:00,09:17:00,9,0,0,0,0,0,1,0,09:16:00,09:17:00,,,,,,,,,,,,,,,,,,,,,&nbsp;</span></p>
+<p class="rvps4"><span class="rvts12">"KAAA-FM",147,"ABC",23,114,1,1,1,1,1,1,0,0,09:16:00,09:17:00,1,1,1,1,1,1,0,0,09:16:00,09:17:00,,,,,,,,,,,,,,,,,,,,,&nbsp;</span></p>
+<p class="rvps4"><span class="rvts12"><br/></span></p>
+<p class="rvps4"><span class="rvts12">Every Feed time must have a corresponding Pledge time</span></p>
+<p class="rvps4"><span class="rvts12"><br/></span></p>
+<p class="rvps4"><span class="rvts12">If a station does not carry the entire program, any hours/avails not carried will be included in the CSV with the designation of “Not Carried”</span></p>
+<p class="rvps4"><span class="rvts12"><br/></span></p>
+<p class="rvps4"><span class="rvts12">The following codes in the CSV file must match those codes in Counterpoint for:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Agreements</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Vehicles</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Station IDs</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Imported Conflicts</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If the Call Letters do not match between the CSV and Counterpoint but the Vehicle, Agreement, and Station ID codes match, the agreement pledge will be updated</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If the vehicle name does not match between the CSV and Counterpoint but Vehicle, Agreement, and Station ID codes, the agreement pledge will be updated</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Ignored Items</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If the Agreement, Vehicle, or Station ID codes in the CSV file do not match those codes in Counterpoint, those records will be ignored</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If pledge information exists for the agreement in Counterpoint, pledge records in the CSV will be ignored</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If no avails are located within the feed times defined in the CSV, the pledge will be ignored&nbsp;</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If a feed day within the CSV conflicts with the feed days defined in Counterpoint, the pledge will be ignored&nbsp;</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">All pledge records for a single agreement will be ignored if any one of the records contains an invalid feed time or day</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Any duplicate information within the file will be bypassed</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">A message recording all conflicts and ignored results will be written to the ImptPldg.CSV and saved in the CSI\Prod\Data\Messages folder.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">File Fields</span></span></h2>
+<p class="rvps2"><span class="rvts6">The pledge import will recognize the fields below, provided in order, without spaces between the comma and the next field value.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Call Letters and Vehicle Names must be enclosed in double quotes, for example, "KAAA-FM" and "Billy Crystal." It does not matter whether the other fields are in quotes.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps184">
+<table width="658" border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="126" height="41" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #95b3d7;">
+   <p class="rvps2"><span class="rvts207">&nbsp;</span></p>
+  </td>
+  <td width="244" height="41" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #95b3d7;">
+   <p class="rvps2"><span class="rvts312">Pledge CSV File Layout</span></p>
+  </td>
+  <td width="245" height="41" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #95b3d7;">
+   <p class="rvps2"><span class="rvts312">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; border-top: none; border-right: none; border-left: none;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; border-top: none; border-right: none; border-left: none;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; border-top: none; border-right: none; border-left: none;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="21" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts313">Field Status</span></p>
+  </td>
+  <td width="244" height="21" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts313">Field Name</span></p>
+  </td>
+  <td width="245" height="21" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts313">Data Example, comments.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Call letters</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Call letters-band. Example: “KAAA-AM”</span></p>
+   <p class="rvps2"><span class="rvts207">Call letters must be within “”</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Station ID</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Must match Agreement record</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="40" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="40" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Vehicle Name</span></p>
+  </td>
+  <td width="245" height="40" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">If not matched with Agreement record, message written in results file. Example: “Billy Crystal”</span></p>
+   <p class="rvps2"><span class="rvts207">Vehicle names must be within “”.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Vehicle Code</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Must match Agreement record</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">ATT (Agreement) Code</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Airplay #</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Must be 1 or higher (if &gt;1, the Airplay field will be updated accordingly)</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Day (Monday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Day (Tuesday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Day (Wednesday)&nbsp;</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Day (Thursday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Day (Friday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Day (Saturday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Day (Sunday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Time From</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Feed Time To</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Live/Delay</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">1=Live; 2=Delayed; 9=Not Carried</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Day (Monday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Day (Tuesday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Day (Wednesday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Day (Thursday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Day (Friday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Day (Saturday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Day (Sunday)</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">0=No 1=Yes</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Time Start</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Mandatory</span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Pledge Time End</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">From Day 1</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Day 1</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Time 1</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">From Day 2</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Day 2</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Time 2</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">From Day 3</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Day 3</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Time 3</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">From Day 4</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Day 4</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Time 4</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">From Day 5</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Day 5</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Time 5</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">From Day 6</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Day 6</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Time 6</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">From Day 7</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Day 7</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">MO, TU, WE, TH, FR, SA, or SU</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="126" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207"><br/></span></p>
+  </td>
+  <td width="244" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">Estimated Time 7</span></p>
+  </td>
+  <td width="245" height="20" valign="bottom" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts207">HH:MM</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Place the CSV file in the CSI\Prod\Import folder.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Importing the File</span></span></h2>
+<p class="rvps2"><span class="rvts6">To run the import, go to File -&gt; Import -&gt; Agreement Data -&gt; Pledge Times.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Browse to the import file (CSI\Prod\Import folder), and select the file to import, then click Import.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Import Errors</span></span></h3>
+<p class="rvps2"><span class="rvts6">Any errors or conflicts encountered during the import process will be written to a log file "ImptPldg.CSV" in the CSI\Prod\Data\Messages folder. The file will list the line numbers that contain the errors/conflicts.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">During the import, the system verifies that the internal Agreement ID and the Station ID match. If they do not, a message saying “Agreement and Station not Matching” will appear in the Results window, and the pledge data will not be imported for that agreement.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts12"></span><span class="rvts12"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

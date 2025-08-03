@@ -1,0 +1,941 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Filemaker Import</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Filemaker Import">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Filemaker Import" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="FilemakerImport"
+		  data-hnd-context="470"
+		  data-hnd-title="Filemaker Import"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="TrafficandAccountingSystem.html">Traffic and Accounting System</a></li><li><a href="TrafficImports.html">Traffic Imports</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="TrafficImports.html" title="Traffic Imports" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ZettaImport.html" title="Zetta Import" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ResearchImports.html" title="Research Imports" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Filemaker Import</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">The Filemaker import allows new orders to be imported from Filemaker. When enabled, new orders can only be imported from Filemaker, they cannot be entered manually. Orders can only be revised using the Traffic system.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Setup Information</span></span></h2>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Traffic Site Options</span></span></h3>
+<p class="rvps2"><span class="rvts6">To enable the Filemaker import feature, a Counterpoint keycode is required. It is enabled by checking on the Filemaker option in Traffic Site Options, on the Option tab, in the System Options section.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Input and Output Folders</span></span></h3>
+<p class="rvps2"><span class="rvts6">The Filemaker import will import orders in XML format from the “input” folder. Successfully imported orders will be moved to the “output” folder.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The “input” folder should be created using the following path (substitute the drive letter as needed):</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts82">z:\csi\prod\orders\input</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The “output” folder should be created using the following path (substitute the drive letter as needed):</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts82">z:\csi\prod\orders\output</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Filemaker Orders</span></span></h2>
+<p class="rvps2"><span class="rvts6">New orders will be entered in the Filemaker system, instead of entering them into the Traffic system Proposal or Orders screen. When they are ready to be imported into the Counterpoint Traffic system, they must be sent to an XML file that uses the specifications shown below, and placed in the relevant\input folder.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps135">
+<table border="1" cellpadding="0" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts210">Field</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts210">Type</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts210">Required?</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts210">Description</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Proposal</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Main Element; an order</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Source</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> Relevant</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Number</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Int</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Unique order #</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">SendDateTime</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Datetime</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> 2017-10-30 </span><span class="rvts211">or</span><span class="rvts190"> 17:10:30</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Advertiser</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Advertiser Info</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Name</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(30)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; &nbsp; &nbsp;Adv Name</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Product</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(35)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; &nbsp; &nbsp;Product Name</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Agency</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Agency Info</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Name</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(40)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; &nbsp; &nbsp;Agency Name</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">CityID</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(5)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; &nbsp; &nbsp;Agency City &nbsp;must match initials as used in Counterpoint</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Buyer</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(20)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Person at agency/advertiser</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Salesperson</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(41)&nbsp;</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Relevant salesperson 20 char for first name, 20 for last &nbsp;</span><span class="rvts211">Ex:</span><span class="rvts190"> Chris Wood</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Lines</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">List of lines for order. &nbsp;Order must have at least one line or one NTR</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">WeeklyLine</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Must have at least one WeeklyLine OR one DailyLine if have ‘Lines’</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">DailyLine</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No&nbsp;</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">See above</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">CommentLine</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Optional comment for line</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">LineNumber</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Int</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Unique line number for line in this proposal</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">VehicleName</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(40)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> Billy Crystal</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">DaypartName</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> S-S 6A-12M</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">SpotLength</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Time</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> 00:00:30’ </span><span class="rvts211">or</span><span class="rvts190"> :30 &nbsp;</span><span class="rvts211">or</span><span class="rvts190">: 30</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="49" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">StartTime</span></p>
+  </td>
+  <td width="62" height="49" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Time</span></p>
+  </td>
+  <td width="73" height="49" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="49" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Only when overriding default daypart start time or end time. &nbsp;Include both if including one. &nbsp;End must be greater than start and crossing midnight not allowed. </span><span class="rvts211">Ex:</span><span class="rvts190"> 06:00:00 </span><span class="rvts211">or </span><span class="rvts190">06:00</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">EndTime</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Time</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">See StartTime above</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">AcquisitionCost</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Currency</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> 1200.00 </span><span class="rvts211">or</span><span class="rvts190"> 1200</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Periods</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Flights element. &nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">DetailedPeriod</span></p>
+  </td>
+  <td width="62" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">DailyLine’s ‘DetailedPeriods’ differ from WeeklyLine’s. &nbsp;Don’t mix within a single line. &nbsp;Must have at least one DetailedPeriod if setting a Line</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">StartDate</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Date</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; &nbsp; &nbsp; Start of flight week &nbsp;</span><span class="rvts211">Ex:</span><span class="rvts190"> 2017-10-23</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">EndDate</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Date</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; &nbsp; &nbsp; &nbsp;End of flight week &nbsp;</span><span class="rvts211">Ex:</span><span class="rvts190"> 2017-10-29</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Rate</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Currency</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; &nbsp; &nbsp; &nbsp;Rate per spot &nbsp;‘2600.00’ &nbsp; </span><span class="rvts211">Ex:</span><span class="rvts190"> 2600</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">SpotsPerWeek</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Int</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp;# of spots for week only for WeeklyLine</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Days</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; Required for WeeklyLine</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">SpotsByDay</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; Required for DailyLine &nbsp;&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Monday-Sunday</span></p>
+  </td>
+  <td width="62" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Int</span></p>
+  </td>
+  <td width="73" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">&nbsp; 7 fields. &nbsp;‘SpotsByDay’-each with # of spots for that day. ‘Days’- ‘Y’ or ‘N’ for each day. ‘Y’ if that day carries spots</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">NTRs</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">List of NTRs for order. &nbsp;Order must have at least one Line or one NTR</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">NTR</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps136"><span class="rvts190"><br/></span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Must have if have ‘NTRs’</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Vehicle</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(40)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">‘George Carlin’</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">BillDate</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Date</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes&nbsp;</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">‘2015-12-27’ Exact date of billing</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Description</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(80)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">‘Truck Rental’ Explanation of NTR, cannot be blank</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">NTRType</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(20)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">‘Remotes’ &nbsp;pre-defined</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">AgencyCommissionable</span></p>
+  </td>
+  <td width="62" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(1)</span></p>
+  </td>
+  <td width="73" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="33" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> Y</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">SalesCommission</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Percent</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> 1.25</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">SalesTaxable</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">String(1)</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> N</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">AmountPerItem</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Currency</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> 200.00</span><span class="rvts211"> or</span><span class="rvts190"> 200</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">NumberOfItems</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Int</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Yes</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> 1</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="146" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">AcquisitionCostPerItem</span></p>
+  </td>
+  <td width="62" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">Currency</span></p>
+  </td>
+  <td width="73" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts190">No</span></p>
+  </td>
+  <td width="454" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px;">
+   <p class="rvps2"><span class="rvts211">Ex:</span><span class="rvts190"> 30.00 30</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If an order is missing any of the above fields, it will be rejected during the import process. For example, if the Advertiser is listed as AC Delco, but there’s no advertiser matching that name in the Traffic system, it will be rejected. A user must enter that advertiser name into the Traffic system, then attempt the import again.</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Importing Orders</span></span></h2>
+<p class="rvps2"><span class="rvts6">Orders are imported by pressing the Orders button on the Jobs screen, which will bring up a new "Transition" screen, described below.&nbsp;</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Transition Screen</span></span></h3>
+<p class="rvps2"><span class="rvts6">The Transition Screen lists any XML files that are in the Input folder and ready to import. From this screen, you can also access the Orders screen to revise a previously imported Order by either double clicking the Modifications button, or by clicking once on the Modifications button and then by pressing the Continue to Orders button.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1392.png"></p>
+<p class="rvps3"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Any orders that are ready to be imported are shown under the Modifications button. The filename used should be the contract number followed by the start date of the contract. In the picture above, the XML file for contract 670 is available to be imported.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To begin the import process, click the order you wish to import, then press the “Continue to Orders” button (or simply double click the XML file shown on the Transition screen). Note: only one order can be imported at a time.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Validation Process</span></span></h2>
+<p class="rvps2"><span class="rvts6">During this initial stage of the import process, the system will run a validation process on the XML file. If there is an issue, such as a violation of the specification rules (this could be something like the contract number is already in use, the agency on the XML file is not in the Traffic system, etc.), the user will be notified in several ways. The words “Failed validation” will appear in red after clicking the “Continue to Orders” button, and a warning will be written to the “FileMakerToOrdersIssuesLog_mm-dd-yy.txt” log file, which can either be accessed from the Accessories -&gt; Messages -&gt; Filemaker to Orders Issues, from which you can select the log file for the current day to view the contents, or from the csi\prod\data\messages folder. An example of a warning message is shown below.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts82">::::::WARNING:::::::</span></p>
+<p class="rvps2"><span class="rvts82">2:30:16 PM User: Julie. 670-07122017.xml failed validation: Advertiser Name is not valid. Buyer Name cannot be tested.</span></p>
+<p class="rvps2"><span class="rvts82">:::::::::::::::::::</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When there is a validation failure, retrieve the log file, find the cause of the validation error or errors, correct them, then try importing again. In the example above, the advertiser name is listed as not being valid because the advertiser name on the XML file does not match any advertiser names defined on the Traffic system. It also lists that the Buyer Name cannot be checked to see if it’s valid because of the non-matching Advertiser name. To correct this issue, the new advertiser and buyer must be added to the Traffic system, before the XML file will import successfully.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Orders Screen</span></span></h2>
+<p class="rvps2"><span class="rvts6">When a new Order has passed the validation process, it will be shown on the Orders screen, where it can be edited as needed and then saved to complete the import process. Some of the fields on the Orders screen are not included on the XML import, such as the Product Protection code, so if those are required, they must be entered manually on the Orders screen.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Save Process</span></span></h2>
+<p class="rvps2"><span class="rvts6">When the Order has been edited and is ready to be saved on the Traffic system, press the Done button. Note that the Save-Stay and Save-Go buttons will be grayed out and unavailable for a newly imported order like this. (If you don’t wish to save the Order for some reason, you can press the Cancel button to exit from this screen without saving it. When doing this, the XML file will remain on the Transition screen where it can be imported at another time.)</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To complete the save process, after pressing Done, click “Yes” on the “save changes” prompt, then press “Done” on the “revision number screen” (edit the revision number if needed) to fully import and save the new order on the Traffic system. This will also move the XML file from the Input folder to the Output folder, so that it will no longer appear in the list of contracts that are available to import, and automatically take you back to the Transition screen where you can either select another import file to import, press Modifications to edit an already imported order, or Cancel to exit to the main Jobs screen.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Additional Information</span></span></h2>
+<p class="rvps2"><span class="rvts6">You can press the Orders button at the top of the Jobs screen (near the Help and Alert menu items) to get into the Orders screen directly, bypassing the Transition screen, for example if you just wanted to revise or schedule existing orders.</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

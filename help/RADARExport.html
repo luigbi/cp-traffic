@@ -1,0 +1,610 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>RADAR Export</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="RADAR Export">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="RADAR Export" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="RADARExport"
+		  data-hnd-context="579"
+		  data-hnd-title="RADAR Export"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="AffiliateSystem.html">Affiliate System</a></li><li><a href="AffiliateExports.html">Affiliate Exports</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AffiliateExports.html" title="Affiliate Exports" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="MarketronHelperUtility.html" title="Marketron Helper Utility" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="RCS4andRCS5.html" title="RCS 4 and RCS 5" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>RADAR Export</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">The Affiliate Radar Export generates a file that is sent to RADAR which is used for advertiser clearance information. The file contains the program schedule information, plus the actual air time and day of the spots within a specified week.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Setup</span></span></h2>
+<p class="rvps2"><span class="rvts6">Every vehicle that is exported to RADAR has program schedule information. The schedule determines which affiliate spots are included in the Radar export by checking the feed time and feed day against the RADAR Program Schedule.</span><span class="rvts100">&nbsp;</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Traffic Site Options</span></span></h3>
+<p class="rvps2"><span class="rvts6">Activate the RADAR Export in the Traffic -&gt; Lists -&gt; Site -&gt; Options tab. You will need a password from </span><a class="rvts66" href="mailto:support@counterpoint.net">support@counterpoint.net</a><span class="rvts6">.</span><span class="rvts100">&nbsp;</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Affiliate&nbsp;</span></span></h3>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">User Options</span></span></h4>
+<p class="rvps2"><span class="rvts6">Activate the RADAR Export in the User Options-&gt;Job screen by setting RADAR to green for each user that can define the Radar Program Schedule.</span></p>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">Affiliate Site Options</span></span></h4>
+<p class="rvps12"><span class="rvts6">Version 7.1 and above: in Affiliate Site Options, on the Options tab, determine how the Radar export setting should be set.</span><span class="rvts32"> </span><span class="rvts6">The available options are “multi-airplay by Spot ID”, “multi-airplay by Program Code”, and “By Air Time”. When the Spot ID option is selected, multiple air plays of a single spot will result in the air play count getting incremented on the Radar export (this is the method used on version 7.0 and earlier). When the Program Code option is selected, on the Radar export, spots with the same program code (as defined on the Radar screen) that air in different breaks will result in the air play count getting incremented as if they were repeated air plays of a single spot, whether they are a single spot or not. When the Air Time option is selected, the data will be exported by air time, and the air time will be used to set the air play count and break position. For a complete explanation of the Air Time option, see the Air Time section below. The Program Code and Air Time option is only available on version 7.1 and above.</span></p>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">Affiliate Agreements</span></span></h4>
+<p class="rvps2"><span class="rvts6">You can enter the Clearance Type while defining the RADAR Schedule, or you can indicate the Clearance Type in the Agreement Screen. When defined in Agreements, it will override the Radar Clearance Type specified within the Radar Program Schedule.</span></p>
+<p class="rvps2"><img width="556" height="220" alt="" style="padding : 1px;" src="lib/NewItem1844.png"></p>
+<p class="rvps29"><span class="rvts57"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">Cmml Only: Commercials only are broadcast for the RADAR export</span></li>
+ <li class="rvps163"><span class="rvts12">Prog + Cmml: Commercials are broadcast within a program for the RADAR export</span></li>
+ <li class="rvps163"><span class="rvts12">Schd: This choice will use the Clearance Type defined in the RADAR Program Schedule screen</span></li>
+ <li class="rvps163"><span class="rvts12">Exclude: This will exclude the station from the RADAR export</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">RADAR Program Schedules&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">Define the program schedule information agreed upon for the show. The program schedule format is between your Network and RADAR.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">There are two ways to enter the RADAR program schedule: individually by vehicle, or modeling from a pre-defined program schedule.</span></p>
+<p class="rvps2"><span class="rvts6">Click the &nbsp;RADAR button to define your schedule.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts118"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If program schedules have been previously defined for any shows, a "Model" box will appear. &nbsp;This allows you to select the show to model from their existing schedule format.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">If no schedules exist, or you do not wish to model, select OK without choosing any show.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Select the vehicle for which you wish to define a schedule for the dropdown, and select New from the dropdown in the upper right corner.</span></p>
+<p class="rvps2"><img width="622" height="330" alt="" style="padding : 1px;" src="lib/NewItem1843.png"></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Network Code&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">The Network code is a Two (2) Character code used to identify the network to RADAR. It is determined between the Network and Radar. &nbsp;</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Vehicle Code&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">The Vehicle code is used to identify the vehicle within the Network to Radar. This can be a two or three character code.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Schedule Day Type&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">The specified times and days in the Radar Program Schedule are independent of any Agreement Pledge Times. These times indicate the times of the airing spot to be extracted to Radar for reporting purposes. This field defines how the Days field will be filled. The choices are:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">MF1 - For a Monday-Friday ROS program schedule&nbsp;</span></li>
+ <li class="rvps163"><span class="rvts12">MS1 – For a Monday-Sunday ROS program schedule&nbsp;</span></li>
+ <li class="rvps163"><span class="rvts12">Day Name – If selected, you need to enter the specific extraction day(s) in the schedule</span><span class="rvts12"> &nbsp; &nbsp; &nbsp; &nbsp;</span></li>
+</ul>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Clearance Type&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">This is used to indicate the type of clearance information.&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">Cmml Only: Is used for a commercial only Broadcast, no program is aired for all stations</span></li>
+ <li class="rvps163"><span class="rvts12">Prog + Cmml: Is used when commercial(s) are broadcast within a program for all stations</span></li>
+ <li class="rvps163"><span class="rvts12">Agreement: Uses the information that is defined in the station agreement for this vehicle to determine the Clearance Type</span></li>
+</ul>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Program Code&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">Enter the three-character (maximum) program code &nbsp;(i.e. 001, 002,…). This code will be agreed upon between the network and RADAR.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Start Time&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">Enter the extraction start time in Eastern time zone (HH:MM:SS a/p). These specified times are independent of any agreement pledge times. They indicate the times the airing spots are to be extracted and sent to RADAR.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">End Time&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">Enter the extraction end time in Eastern time zone (HH:MM:SS a/p).</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Day(s)&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">You only need to enter the specific extraction days if Schedule Day Type is by Day Name&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Export Selectivity</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">Clearance Start Date: Enter the Clearance Start Date requested by Radar. This must be a Monday</span></li>
+ <li class="rvps163"><span class="rvts12">Output Format: Select either Prn, CSV or both to export file</span></li>
+ <li class="rvps163"><span class="rvts12">Intention Week Declaration: If a station(s) is not affiliated with a Vehicle during the clearance week, the Network is to supply data for those stations based on an alternate week of the station’s affiliation during the survey period, which is agreed upon between the Network and Radar. In addition, the Network should provide Radar with a commercial schedule for each non-standard clearance week for which the Network is supplying data</span></li>
+ <li class="rvps163"><span class="rvts12">Specified Week on Daylight-Saving Time: Indicates if the clearance week is in daylight saving time. If you do not make a selection the system will automatically choose standard daylight</span></li>
+ <li class="rvps163"><span class="rvts12">Radar #: This is used to indicate the Radar assigned number for the clearance week. This number is agreed upon between the Network and Radar</span></li>
+ <li class="rvps163"><span class="rvts12">Max # of Spots per break to Export (Blank = All): This controls the number of times a spot is shown within a single break. This defaults to 2</span></li>
+ <li class="rvps163"><span class="rvts12">Max # of Times Same Spot Exported: This controls the number of times a spot is shown if the Air Play number for a spot is high. This defaults to 6. This value must be greater than 0. If value is 0, a warning message stating “Max # of times same spot exported must be specified (1-99)” will appear</span></li>
+ <li class="rvps163"><span class="rvts12">Network Codes: These are the Network codes defined in the Radar Program Schedules. You can select all Networks or individual Networks, by clicking on the specific network code you want</span></li>
+ <li class="rvps163"><span class="rvts12">Vehicle Codes: These are the Vehicle codes defined in the Radar Program Schedules. If you select an individual Vehicle Code, an additional box will open displaying the stations</span></li>
+</ul>
+<p class="rvps163"><span class="rvts12"><br/></span></p>
+<p class="rvps163"><span class="rvts12">If spots are not fully posted for this Vehicle it will indicate it in the Results screen</span></p>
+<p class="rvps163"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click the Export button and a path indicating the file’s location will appear in the bottom left corner.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Export File Name&nbsp;</span></span></h2>
+<p class="rvps2"><span class="rvts6">The RADAR export file name is: Rx-nn-yy-zz.prn (or.CSV)</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">R is constant&nbsp;</span></li>
+ <li class="rvps163"><span class="rvts12">x= RADAR #&nbsp;</span></li>
+ <li class="rvps163"><span class="rvts12">nn=Network code&nbsp;</span></li>
+ <li class="rvps163"><span class="rvts12">yy-zz=Month (1-12) Monday day (1-31) of the Clearance week&nbsp;</span></li>
+ <li class="rvps163"><span class="rvts12">Prn is constant. The naming structure of the PRN file is as follows </span><span class="rvts11">“R3-07-1-12.Prn”</span><span class="rvts12"> which reads :</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts11">R</span><span class="rvts12"> is Constant, </span><span class="rvts11">3</span><span class="rvts12"> = Radar #, </span><span class="rvts11">07</span><span class="rvts12"> = Network Code, </span><span class="rvts11">1</span><span class="rvts12"> = the month, </span><span class="rvts11">12</span><span class="rvts12"> = day ( Monday start) </span><span class="rvts11">Prn</span><span class="rvts12"> is constant</span></li>
+ </ul>
+ <li class="rvps163"><span class="rvts12">The naming structure of the CSV file is as follows </span><span class="rvts11">R3-07-1-12.CSV</span><span class="rvts12"> which reads :</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts11">R</span><span class="rvts12"> is Constant, </span><span class="rvts11">3</span><span class="rvts12"> = Radar #, </span><span class="rvts11">07</span><span class="rvts12"> = Network Code, </span><span class="rvts11">1</span><span class="rvts12"> = month, </span><span class="rvts11">12</span><span class="rvts12"> = day (Monday start) </span><span class="rvts11">CSV</span><span class="rvts12"> is constant.</span></li>
+ </ul>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts241">RADAR Export CSV definitions&nbsp;</span></span></h2>
+<div class="rvps77">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Radar Character</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Definition</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">A</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">RADAR Network code</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">B</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">RADAR Program code</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">C</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Spot position in break defined by a letter</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">A for first spot</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">B for second spot</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" height="41" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">D</span></p>
+  </td>
+  <td width="502" height="41" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Number of times the same spot repeated (caused from load factor and/or from selling to airing mapping)</span><br/><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">Blank for First time spot appears</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">S for second time spot appears</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">T for third time spot appears</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">4 for 4th time spot appears</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">5 for 5th time spot appears, etc.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">&nbsp;</span><span class="rvts35">Limiting factor is "Max # of times same spot exported"</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">E</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Call letters plus band</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">F</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Two fields in one</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">The first is the affiliate time zone (E, C, M or P)</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">The second if Daylight Saving (D) or Standard time (S) for the clearance week</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" height="16" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">G</span></p>
+  </td>
+  <td width="502" height="16" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Program schedule day definition (MF1, MS1, MON, TUE,..,SUN)</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">H</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Program schedule and/or agreement Clearance type</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">X not to air</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">P air program and commercials</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">C air Commercials only</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">I</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Intention indicator</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">Blank indicates spot from clearance week</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">I indicates that spot from intention week</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">J</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Air Time if clearance type is P or C otherwise blank</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">K</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">Air Day if clearance type is P or C otherwise blank</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6"><br/></span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts35">(MON, TUE,...,SUN)</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="106" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">L</span></p>
+  </td>
+  <td width="502" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps2"><span class="rvts6">RADAR Vehicle code</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Affiliate Updating</span></span></h2>
+<p class="rvps2"><span class="rvts6">To facilitate the updating of affiliated stations electronically, Radar had developed a Windows compatible software program called AUS (Affiliate Update System). Networks use the AUS system to revise affiliate start and end dates from a database of affiliates. The data of files is then forwarded to Radar periodically by the contract specified dates to update their data. In turn they will create a new set of database files reflecting all updates and call letter changes, and return it to the Network to use for the next period update.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When Radar has completed the updating of the Network station file, Radar sends each Network a copy of this final list of affiliated stations.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Radar Clearance Report&nbsp;</span></span></h2>
+<p class="rvps27"><span class="rvts6">The Radar Clearance report indicates which minutes of inventory are parts of which Radar network for any given Radar vehicle, based on the Radar Table. This report includes vehicle, station, date and time aired, advertiser &amp; product, ISCI, spot length, status, and the RADAR 2-character network code.&nbsp;</span></p>
+<p class="rvps27"><span class="rvts109"><br/></span></p>
+<p class="rvps27"><img width="641" height="289" alt="" style="padding : 1px;" src="lib/NewItem1839.png"></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Radar Export by Air Time</span></span></h2>
+<p class="rvps2"><span class="rvts6">When running the Radar export with the “Air Time” setting enabled in Site Options, special rules are used to set the “Spot Position” value and the “# Times the Same Spot Airs”, so the output varies from the Spot ID and Program Code method. The following rules are used:</span></p>
+<p class="rvps80"><span class="rvts151"><br/></span></p>
+<p class="rvps2"><span class="rvts6">1. If there's more than one spot with the same HH:MM A/P air time (for the station, vehicle, and date), then the "Spot Position value" (column 3) gets incremented starting at A, then B, etc.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Example: two spots with an 8:59a air time, one is A, the other is B, because the air time (excluding seconds) is the same.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">2. For the "# times same spot airs" (column 4), starting with the spot with the earliest air time for the day (for a station, vehicle, and date), it has a 1, then 2 for the spot with the next earliest air time, and so on. If there's more than one spot with the same air time (and for the same station, vehicle, and date), then they will have the same "# times same spot airs" value.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Example: two spots with an 8:59a air time, both will have a 1 because the air time is the earliest spot of the day and the air times are the same so they’re both 1. The next spot has an air time of 9:03a, and it will be number 2, and so on, for the rest of the day for that station/vehicle/date.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">3. The data is exported by air time instead of by feed time.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">4. For spots that didn't air, the pledge time is used as the default air time, so effectively the pledge time will be used for setting column 3 and 4 for spots that didn't air.</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,394 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Station Import</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Station Import">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Station Import" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="StationImport"
+		  data-hnd-context="616"
+		  data-hnd-title="Station Import"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="AffiliateSystem.html">Affiliate System</a></li><li><a href="AffiliateImports.html">Affiliate Imports</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AffiliateImports.html" title="Affiliate Imports" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="SpotDataImport.html" title="Spot Data Import" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="AdditionalTopics.html" title="Additional Topics" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Station Import</h2>
+
+            <div class="main-content">
+                
+<p class="rvps12"><span class="rvts6">The Station Import allows you to easily import new or update existing station information into the Affiliate database. The information can come from Act1, BIA or you can create your own .csv file. Stations and personnel can be defined and edited on an excel spreadsheet that is saved as a .csv (comma separated value) file before importing the data. &nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import Site Options</span></span></h2>
+<p class="rvps2"><span class="rvts6">The Using Station ID setting in Affiliate -&gt; Site Options must be defined for the station import. There are several different options for this setting:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If set to Yes, you must enter a unique Station ID in the Stations screen for each station. Obtain your list of Station IDs from your data service provider, such as Act1, BIA, or M Street. Once you enter the ID, your system will import all added (new) stations, and update any changes made to those stations already imported.</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">If you choose to use Station IDs, every station must have a unique ID defined.</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If &nbsp;“No: import in update mode” is selected, you can still import without station IDs, but only existing stations will be updated, new stations will not be added into the database.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If &nbsp;“No: import in add mode” is selected, when you run your import only new stations will be added into the database. Existing stations will not be updated with any changes.</span></li>
+</ul>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Station Import Additional Bands&nbsp;</span></span></h3>
+<p class="rvps187"><span class="rvts6">If bands other than FM and AM need to be imported by the Station Information Import, such as HD, those bands can be entered in this field on the Affiliate Site Options screen. Type in each band, with each band separated by a comma. (Note: FM and AM do not need to be entered in this field. Only bands other than FM and AM that also need to be imported.) After the additional bands have been entered and saved, when stations with those bands are detected during the Station Import, those stations will be added or updated as needed. Stations with bands that are not FM or AM or one of the additional allowed bands will continue to be bypassed during the Station Information import process. (This feature is available on version 7.1 and above.)</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import file</span></span></h2>
+<p class="rvps2"><span class="rvts6">The import allows you to import 44 data fields whose data will appear in the Station Screen. Up to 5 people for each station can be defined with each station.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Four fields are mandatory: Call Letters, ID# (if Station IDs are used), DMA Name, and Zone.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If any mandatory field is missing from the first line of the import file, the import process will be terminated and a warning message will be displayed that a required column was missing and that the import was terminated.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">All other fields are optional, and can be in any order, omitted (and added later), or never added. &nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Layout Example</span></span></h2>
+<p class="rvps2"><span class="rvts6">This is an example of some of the fields and data in their layout.</span></p>
+<p class="rvps2"><img width="693" height="70" alt="" style="padding : 1px;" src="lib/NewItem1970.png"></p>
+<p class="rvps2"><img width="689" height="44" alt="" style="padding : 1px;" src="lib/NewItem1969.png"></p>
+<p class="rvps2"><img width="687" height="36" alt="" style="padding : 1px;" src="lib/NewItem1968.png"></p>
+<p class="rvps2"><img width="690" height="33" alt="" style="padding : 1px;" src="lib/NewItem1967.png"></p>
+<p class="rvps2"><img width="689" height="30" alt="" style="padding : 1px;" src="lib/NewItem1966.png"></p>
+<p class="rvps2"><img width="690" height="34" alt="" style="padding : 1px;" src="lib/NewItem1965.png"><img width="699" height="32" alt="" style="padding : 1px;" src="lib/NewItem1964.png"><img width="691" height="32" alt="" style="padding : 1px;" src="lib/NewItem1963.png"><img width="686" height="26" alt="" style="padding : 1px;" src="lib/NewItem1962.png"><img width="697" height="31" alt="" style="padding : 1px;" src="lib/NewItem1961.png"></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1960.png"></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import Preparation – Station Formats</span></span></h2>
+<p class="rvps2"><span class="rvts6">You have the choice to update the stations with ACT 1 format names or to manually select the formats defined in Counterpoint. If you are using your own names, define the Station Formats prior to importing the Station data using the File menu -&gt; Manage Formats. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts105">New and Change</span><span class="rvts12"> formats is used to enter new formats or to change the name of a format that is already defined</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Use the </span><span class="rvts105">Update Cross References</span><span class="rvts12"> once you have imported (BIA, ACT 1, etc.) files. This shows you the imported format is and what the corresponding Counterpoint format.</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">File Preparation</span></span></h2>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Take data from any source (Act1, BIA, etc.)&nbsp;</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Import it into Excel or export and open/convert in Excel</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">View the file and arrange the columns and column headers</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Using the list of Header names defined in the </span><a class="rvts102" href="CSVFileLayout.html">CSV layout section</a><span class="rvts12">, add a header over each field you wish to import. The spelling of the Excel header name you define must exactly match the listed Header Name to be imported into the correct field. All mandatory fields must be included at a minimum.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Delete any blank columns or any columns of data in the source file that you can’t import, or don’t want to import</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Remove any characters that do not belong such as &amp;, &lt;, &gt;, &gt;,?, [, etc.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Sort each column and check for:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Spelling errors</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Blank fields. If using Station IDs, and a station is defined on the import file with a Station ID of zero (or is blank), that station record will be bypassed when running the import.</span></li>
+ </ol>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Save the file as a CSV file type.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Place the file in the x:\csi\prod\import directory</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">X: is the drive on which Counterpoint resides</span></li>
+ </ol>
+</ol>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Adding stations</span></span></h2>
+<p class="rvps2"><span class="rvts6">If you are importing additional stations, you should generate the Group Report (Reports -&gt; Group Report) for each option, and compare the names defined in the Affiliate database with the names defined in the import file. You may want to change the Group Name in the import file to match the predefined Group Names DMA, Format, etc.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import rules</span></span></h2>
+<p class="rvps2"><span class="rvts6">When importing a CSV file, the following rules are used:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If some records (stations) have data for a column, then any records of that same column without data will result in the value being removed from the station (as it updated). One exception to this is for blank Station ID, Zone, and DMA Name fields. Stations with blank values for these fields will be bypassed (the fact that they were bypassed will be shown in the Result log file that is displayed at the end of the import process).</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If no records have data for a column, then that column will be ignored (previously defined values will be retained). &nbsp;We do not recommend adding columns that contain no data</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Omit that column by leaving its header blank.</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Do not omit mandatory fields.</span></li>
+ </ol>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">For a station to be added, the following minimum columns must be specified: Call Letters, ID# (only if using IDs), DMA Name, and Zone.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">After the last column with data, the remaining columns are not required.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Each column is separated from the previous column by a comma.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Each record is separated by a carriage return/line feed.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">No commas are allowed within the field unless the field is enclosed with Double Quotes (“2,000,000”).</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Fields requiring Yes or No will only allow Y or N.</span></li>
+</ol>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import Procedure when using Station IDs</span></span></h2>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li value="1" style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">In Affiliate -&gt; File, Select Import -&gt; Update/Add Stations</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Browse to the x:\csi\prod\import directory.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Select the file to import.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">Proof the contents of the file in the display.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">You are looking for:</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Correct number of columns</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Fields that should contain numeric value have numeric values</span></li>
+ </ol>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">You cannot proceed if you have misspelled any header names</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps26"><span class="rvts12">When proofed, Click OK</span></li>
+</ol>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Select Report Options</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts105">Report stations not included in the import file: this option </span><span class="rvts12">gives you a list of the stations that are defined in Affiliate but not in the Imported file</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Report import stations not in system: this options gives you a list of stations in the file but not in Affiliate System. These stations were not added to the system during the import</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Alaska and Hawaii Time Zone Conversion</span></span></h2>
+<p class="rvps2"><span class="rvts6">On version 7.1 and above, two additional options appear: “Convert Alaska time zone to Pacific” and “Convert Hawaii time zone to Pacific”.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts40"><br/></span></p>
+<p class="rvps2"><img width="618" height="236" alt="" style="padding : 1px;" src="lib/NewItem1957.png"></p>
+<p class="rvps2"><span class="rvts40"><br/></span></p>
+<p class="rvps2"><span class="rvts6">During the import process, if “A” is detected as the station zone and the “Convert Alaska time zone to Pacific” option is checked on, then the time zone will be changed to Pacific for that station. If that option is not checked on, then the station with a zone of A (Alaska) gets imported as the Alaska Time Zone.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Likewise, if “H” is detected as the station zone and the Hawaii option is checked on, then the time zone will be changed to Pacific for that station. If that new option is not checked on, then the station with a zone of H (Hawaii) gets imported as the Hawaii Time Zone.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import the file</span></span></h2>
+<p class="rvps2"><span class="rvts6">Click Import.&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Each Format, DMA Market, MSA Market and Owner is verified that they are defined (exist in the database). For those that are not defined, a screen display allows you to select which should be used instead of the imported name</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Any field that is blank or contains N/A will be bypassed (ignored)</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">The Unused DMA Markets, MSA Markets and Owners will be removed</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Call Letter history is updated as part of the import process &nbsp;</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Today’s date (the import occurred) is used as the date the station call letters were altered</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><a name="_Toc295389828"></a><span class="rvts6">Any import messages will be shown on screen and recorded in the import results</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">A text file with all import results is stored in the x:\csi\prod\data\messages folder.</span></li>
+</ol>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Owner Verification During Import Process</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1972.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts6">You have the choice to update the stations with ACT 1 names or to manually select the owners defined in Counterpoint</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">All Act 1 Owners must match an existing format</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts6">Ideally, match the ACT 1 Owner to an existing Counterpoint Owner by selecting from the dropdown and TAB to next line. If you don’t have a match set the field to [Add as New Name].</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts6">Once this is completed click on Continue to move to the next area.</span></li>
+</ul>
+<p class="rvps62"><img alt="" style="padding : 1px;" src="lib/NewItem1973.png"></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">DMA Market/</span></span><a name="_Toc295389835"></a><span class="rvts0"><span class="rvts34">MSA Market During Import Process</span></span></h3>
+<p class="rvps2"><span class="rvts6">If any DMA Market or MSA Market does not match an existing name, then the following screen will pop-up.</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1971.png"></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import Results</span></span></h2>
+<p class="rvps2"><span class="rvts6">Changes are logged to the UpdateStationStatus.txt log file, which can be accessed from Accessories -&gt; Messages -&gt; Update Station Info.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The number of records updated is also written to the Affiliate Error Log, which can also be accessed from the Accessories Messages menu.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

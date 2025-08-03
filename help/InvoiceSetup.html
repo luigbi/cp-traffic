@@ -1,0 +1,463 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Invoice Setup</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Invoice Setup">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Invoice Setup" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="InvoiceSetup"
+		  data-hnd-context="215"
+		  data-hnd-title="Invoice Setup"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="TrafficandAccountingSystem.html">Traffic and Accounting System</a></li><li><a href="TrafficJobsScreens.html">Traffic Jobs Screens</a></li><li><a href="Invoices.html">Invoices</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="Invoices.html" title="Invoices" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="Invoices.html" title="Invoices" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="MonthEndCheckProcedures.html" title="Month End Check Procedures" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Invoice Setup</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">There are several options that must be set prior to invoicing. These settings will affect the way in which you bill and report your revenue.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Site Options&nbsp;</span></span></h2>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Invoice Tab</span></span></h3>
+<p class="rvps2"><img width="650" height="339" alt="" style="padding : 1px;" src="lib/NewItem622.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Payment Name and Address:</span><span class="rvts6"> This is the Remit To address that appears on the invoice.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Default Billing Cycle Local, Regional and National:</span><span class="rvts6"> You can define a sales source as being Local, Regional, or National in the Sales Origin Field. This option will default the Billing Cycle that will appear in the Proposal and Orders Screens based on the salesperson’s setting. You can override the default on an order by order basis. You must have the Weekly and Calendar billing options checked to use this feature.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Lowest Invoice Number to Assign, Highest Number to Assign, Next Number to Assign:</span><span class="rvts6"> Determines the invoice number range. The Next # to Assign needs to be defined during the initial setup, and will then update automatically during invoicing.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Last Billed Date: Broadcast, Calendar, Weekly, Last Rep Print Date:</span><span class="rvts6"> These invoice dates need to be defined during the initial setup, and will then update automatically as needed during invoicing.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Invoice All Contracts: </span><span class="rvts6">There are three methods of billing. Each method affects the invoices as well as the way in which receivables are updated. Once a method is selected, it cannot be changed. See Appendix A for complete descriptions of each method.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">(A) “As Ordered, Update Ordered Vehicle”: All dollars ordered will be billed as ordered including missed and moved spots, with revenue going to the ordered vehicle.</span></li>
+ <li class="rvps4"><span class="rvts12">(B) “As Ordered, Update Aired Vehicle”: All dollars ordered will be billed including missed and moved spots with revenue going to the aired vehicle.</span></li>
+ <li class="rvps4"><span class="rvts12">(C) “As Aired”: Spots will be billed based on where they aired, and all revenue moves with the spots.</span></li>
+</ul>
+<p class="rvps22"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">As Ordered Missed Show Avail Times or Random</span><span class="rvts6">: When billing as ordered, conventional line spots that were missed can either show the outside date/time or a random time using the ordered criteria on the invoice.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Ordered Daypart Show Name, Time or None: </span><span class="rvts6">This question allows you to define how you want to see the package spots in the Ordered area on Invoice Form #1. Package spots are created at the time the preliminary or final invoice is generated. The options are:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">Name: Prints the daypart name.</span></li>
+ <li class="rvps4"><span class="rvts12">Time: Prints the ordered daypart times or override times.</span></li>
+ <li class="rvps4"><span class="rvts12">None: Prints the package vehicle name.</span></li>
+</ul>
+<p class="rvps10"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">BBs on Same Line</span><span class="rvts6">: &nbsp;If checked on, a separate invoice line will be created for Open Billboards, the ordered spot, and Closing Billboards. This may create lengthy invoice runs.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">For ISCI Truncate Right, Truncate Left, Wrap Around:</span><span class="rvts6"> These settings determine how lengthy ISCI codes are handled on the invoice. “Truncate right” will remove the last characters of the ISCI if it exceeds the column space. “Truncate left” will remove the first few characters of the ISCI if it exceeds the column space. “Wrap Around” will show the entire text across more than one line.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">All Vehicles on Same Invoice:</span><span class="rvts6"> If set to Yes, this will print all vehicles on one invoice; if No, a separate invoice will print for every vehicle on a contract.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Combine Air and NTR: </span><span class="rvts6">This will combine Air Time and NTR on one invoice. If using Installment Billing, this option is automatically activated.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Invoice Selective Vehicles: </span><span class="rvts6">When checked, each vehicle is listed in the Invoice Screen and can be selected and invoiced individually. This option can only be used if “All Vehicles on Same Invoice” is selected.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Laser Print Form (1) Ordered/Aired/Reconc Columns: </span><span class="rvts6">Typically Invoice form 1 is used with “Sort by Sales Source” selected. This is the default and most commonly used form. It shows ordered information from the contract, reconciled aired information, and calculates the difference.</span></p>
+<p class="rvps2"><span class="rvts6">If Suppress Air Time is selected, no spot air times will print.</span></p>
+<p class="rvps2"><span class="rvts6">Sort by Sales Source: This applies to Form #1 only. If checked, the major invoice sort will be by Sales Source, with the invoice payee as a minor sort.</span></p>
+<p class="rvps10"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Laser Print Form (2) Separate Invoice/Affidavit:</span><span class="rvts6"> This form shows Totals for each Market. &nbsp;A separate Affidavit of Performance Report will show the detail spot information that can be provided to your client with the invoice. To enable this format, “Market Based” must be activated in Site Options-&gt;Sales.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Laser Print Form (3) Aired Column</span><span class="rvts6">: This form only shows the aired spots and does not have an Ordered or Reconciled column on the invoice format.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Laser Print Form (4) 3-Col Aired:</span><span class="rvts6"> This format shows aired spots only and does not have an Ordered or Reconciled column. &nbsp;The aired spots show in three columns that will fit more airing spots per invoice than the other invoice formats. No Makegood or Outside spots, missed spots or line comments are shown. This form cannot combine NTR.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Tax Region None, USA, Canadian, Air Time Tax, NTR Tax: </span><span class="rvts6">If applicable, select what country tax is used, whether the tax is for Air Time spots, NTR, or both, and define name for Tax 1 and Tax 2 (if used) for example: AZ, NM, HI.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Print Rep Invoices by Market or Vehicle: </span><span class="rvts6">If using Rep vehicles, determine whether you wish to print Rep Invoices by Market (vehicle group) or by individual vehicles.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Post Rep by Date/Time, and/or Counts by Std, Cal, Wkly, or None: </span><span class="rvts6">This determines how rep spots are posted.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">Post Rep by Date/Time and/or Counts: Allows you to post the exact dates and times each rep spot aired.</span></li>
+ <li class="rvps4"><span class="rvts12">Std: Standard broadcast calendar.</span></li>
+ <li class="rvps4"><span class="rvts12">Cal: Calendar month.</span></li>
+ <li class="rvps4"><span class="rvts12">Wkly: Weekly.</span></li>
+ <li class="rvps4"><span class="rvts12">None.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Sort by Payee or Vehicle: </span><span class="rvts6">Typically, invoices are sorted alphabetically by payee. If the Invoice Selective Vehicles option is activated, this question gives you the choice of sorting by vehicle instead of agency.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Lock Box by Vehicle Instead of Payee:</span><span class="rvts6"> This is used if your vehicles are stations and invoices are remitted to the stations, not corporate headquarters. When selected, each vehicle must have an address defined in Lists-&gt;Vehicles.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Day is Complete Testing: </span><span class="rvts6">If checked, Monday through Sunday check boxes appear in Post Log. Each day must be checked as Complete for each vehicle prior to running invoices.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32"># Lines to Skip: Above Log and Between Logo and Address:</span><span class="rvts6"> A standard #10 window envelope can be used to mail out the invoices. These questions are used to adjust the number of spaces on the invoice form to fit into the window. The allowable numbers are between 0 and 5.</span><span class="rvts100"> </span><span class="rvts6">Start with 0 before and 3 between logo and address, then adjust from there after testing a preliminary invoice to determine the correct values for your printer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Change Invoice Spot Times to ET, CT, MT, PT or N/A: </span><span class="rvts6">Typically N/A is selected. This is used if your programming is defined in a time zone different from what needs to appear on the invoices.</span></p>
+<p class="rvps2"><span class="rvts32"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Print Final EDI Invoices: </span><span class="rvts6">When checked, by default, the “Include EDI” checkbox on the invoice screen will be checked on so that invoices for agencies that are set to use the EDI system will also get regular invoices created for them.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Bill Spots X-Mid in Aired Month: </span><span class="rvts6">If checked and using EDI, then spots that cross midnight on the last day of the standard billing month will print on the invoice in the order month with a notation that they aired after midnight, but will actually bill in the next month where they truly aired. If unchecked then the spots will be shown and billed in the ordered month.</span></p>
+<p class="rvps2"><span class="rvts32"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Require Complete Station Posting Prior to Agency Invoices</span><span class="rvts6">: This setting is only for systems that have vehicles set to the "Post Log Import Source" of "Radio Station Invoice" on the Vehicle Options-&gt;Barter tab. If the "Require Complete Station Posting Prior to Agency Invoices" setting is checked on, then all radio station invoices must be posted (either by importing the PDF invoices or by manually posting them on the Post Log screen) before final invoices can be run from the Traffic system. If the "Require Complete Station Posting Prior to Agency Invoices" is not checked on, then final invoices can be generated before all the radio station invoices have been imported for the month. The default setting for this option is for it be unchecked. It should be left unchecked for all systems except in the case of systems that use the radio station invoice import feature and that do not wish to allow final invoices to be generated before all radio station invoices have been imported into the Traffic system.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Accounting Tab</span></span></h3>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem623.png"></p>
+<p class="rvps2"><span class="rvts32">Installment Method as Invoiced (Inv is Rev) or Aired (Separate Inv from Rev):</span><span class="rvts6"> If Installment Billing is activated in Site Options-&gt;Options, you must choose the method of reporting revenue. Once chosen, this method cannot be changed.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">Invoiced (Inv is Rev): This will report your revenue as it billed. For example, if the flight goes for 12 months, but they are billed upfront in January, all of the revenue will report in January.</span></li>
+ <li class="rvps4"><span class="rvts12">Aired (Separate Inv from Rev): This will report your revenue as aired. For example, if the flight goes for 12 months, but they are billed upfront in January, the revenue will report across the 12 months.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts32">Collection Contact and Phone Number: </span><span class="rvts6">This contact information will print on the Statement of Account report.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Comment Tab</span></span></h3>
+<p class="rvps39"><span class="rvts32">Invoice Disclaimer: </span><span class="rvts6">Text defined here will appear on all Invoices.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Sales Tab</span></span></h3>
+<p class="rvps2"><span class="rvts32">Wordwrap Vehicle Name on Form Reports: </span><span class="rvts6">Vehicles with a name greater than 20 characters to wrap around to the next line, rather than being cut off after 20 characters</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Copy Tab</span></span></h3>
+<p class="rvps2"><span class="rvts32">Using ISCI Codes on Invoices:</span><span class="rvts6"> This question determines whether ISCI codes will appear on the invoice. They can be set to always or never appear, or a default answer can be set in the Advertiser and Agency screens that you can override. If an ISCI begins with “WW_”, and an agency advertiser requires those letters to be excluded from their invoice, this setting must be set to either “Ask - Default Yes” or “Ask – Default No”, and the Agency or Direct Advertiser must have the “ISCI on Invoice” field set to “W/O Leader”.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Podcast Invoices</span></span></h2>
+<p class="rvps2"><span class="rvts6">If a vehicle’s medium type is set to be Podcast in the Vehicles -&gt; Options -&gt; General Tab, and the “Show Audio Type on Proposal/Order” checkbox is checked on in the Site Options -&gt; Contract tab, the audio type will print on Invoice Form 1.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="617" height="407" alt="" style="padding : 1px; background-color : #000000;" src="lib/NewItem620.png"></p>
+<p class="rvps2"><span class="rvts101"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Audio Types are defined in the Proposal/Order screen Override Audio box.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Options Tab</span></span></h3>
+<p class="rvps2"><span class="rvts6">A special, custom air time and NTR invoice export is created during the final and reprint invoice process when the “Invoice Export” option on the Options tab, in the System Options section, is checked on. For more information on this special export, see the Invoice Export help document on the Counterpoint website.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Advertiser Screen</span></span></h2>
+<p class="rvps2"><span class="rvts6">There are several billing options to define per Advertiser.&nbsp;</span></p>
+<p class="rvps2"><img width="517" height="319" alt="" style="padding : 1px;" src="lib/NewItem625.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">Invoice Sort: You can define a category that groups invoices with the same requirements together during the invoice run, such as Notarized Scripts Required</span></li>
+ <li class="rvps4"><span class="rvts12">Allow on Invoices: Each of these fields are toggles that can be changed for each Advertiser</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Rates: If set to Yes, spot rates and subtotals by vehicle are shown on the invoice. If set to No, spot rates and subtotals by vehicle are suppressed.</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">ISCI: Yes means the client requires their copy information on the spots on the invoice/affidavit and the spots that are missing copy will show on the Missing ISCI Report. &nbsp;No means ISCI is not required for the client.</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Package As: You can see either airing times or daypart ordered times in the airing column.</span></li>
+ </ul>
+</ul>
+<p class="rvps14"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Direct advertisers can be configured to use EDI Invoices or the PDF Email system.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem624.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To configure a direct advertiser to use EDI for Invoices, select the appropriate EDI service from the “EDI for Invoices” field.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To configure a direct advertiser to use the PDF Email feature, select “PDF Email” from the “EDI for Invoices” dropdown, double click, then enter the names and email addresses of the email recipients. Up to four personnel records can be entered. If you want one of your personnel to receive a copy of the emailed invoices, include their name and email address on this screen. After entering the email recipients, press Done on the PDF Email Invoice Personnel screen, then save the direct advertiser.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Agency Screen</span></span></h2>
+<p class="rvps2"><span class="rvts6">There are several billing options to define per Agency.&nbsp;</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem629.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">ISCI on Invoice: Yes means the client requires their copy information on the spots on the invoice/affidavit and the spots that are missing copy will show on the Missing ISCI Report. &nbsp;No means ISCI is not required for the client</span></li>
+ <li class="rvps4"><span class="rvts12">Invoice Sort: You can define a category that groups invoices with the same requirements together during the invoice run, such as Notarized Scripts Required</span></li>
+ <li class="rvps4"><span class="rvts12">Package Invoice Show: You can see either airing times or daypart ordered times in the airing column</span></li>
+ <li class="rvps4"><span class="rvts12">Lock Box Name: The Lock Box addresses are defined in Lists -&gt; Lock Box and then associated with an agency/advertiser. Lock Box is used if the payment from specific agencies/advertisers is to be sent to a different location.</span></li>
+ <li class="rvps4"><span class="rvts12">There is also a Site Options -&gt; Invoice setting “Lock box by vehicle instead of payee”, which may be needed if your vehicles are stations where the payment will be sent.</span></li>
+ <li class="rvps4"><span class="rvts12">EDI for invoices: If using electronic invoices, select the EDI service being used from this dropdown. You can also select “PDF Email” from this dropdown to enable this agency to use the PDF email feature, which automatically emails final and reprint invoices to the recipients defined for the agency. To configure an agency to use the PDF Email feature, select “PDF Email” from the “EDI for Invoices” dropdown, double click, then enter the names and email addresses of the email recipients. Up to four personnel records can be entered. If you want one of your personnel to receive a copy of the emailed invoices, include their name and email address on this screen. After entering the email recipients, press Done on the PDF Email Invoice Personnel screen, then save the agency.</span></li>
+ <li class="rvps4"><span class="rvts12">Terms: The default Remit terms are defined in Site Options -&gt; Export.</span></li>
+ <li class="rvps4"><span class="rvts12">Air Time Tax: If applicable set up the tax terms in Site Options -&gt; Invoice.</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Sales Source</span></span></h2>
+<p class="rvps2"><span class="rvts6">The Sales Sources determine how the revenue for a vehicle is updated. The Sales Source is assigned to a Salesperson. All management reports will break out the revenue by sales source.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">Enter the Name of the Sales Source</span></li>
+ <li class="rvps4"><span class="rvts12">Enter the Commission percentage that Sales Source receives (if applicable)</span></li>
+ <li class="rvps4"><span class="rvts12">Enter the Sales Origin for the Sales Source, for example, is this National or Local business, Direct or Agency?</span></li>
+ <li class="rvps4"><span class="rvts12">Determine how Receivables should be updated after invoicing&nbsp;</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Receivables- Will update the amount to A/R</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">History- Will invoice the amount and update it into the history receivables</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Export + History- Will invoice the amount, automatically create an export and update it into the history receivables</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Export + A/R- Will invoice the amount, automatically create an export and update it into the current A/R</span></li>
+ <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Ask by Vehicle</span><span class="rvts11"> </span><span class="rvts12">- You define on the vehicle participant screen how and where revenue is updated</span></li>
+ <li class="rvps4"><span class="rvts12">Enter the Logo that will print on invoices and reports for this Sales Source</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Each logo name must be no more than 15 characters (excluding the extension)&nbsp;</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Each logo must reside in the Logo folder defined in Traffic.INI (see IT Utilities for more information)</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">The logo entered in this field will display on all invoices for this Sales Source</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">If your network does not need multiple logos, and your RptLogo is a JPG, you may leave this filed blank</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">If your network does not need multiple logos, and your RptLogo is a BMP, the system will not find the logo, and will default to the hardcoded star logo</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="margin-left: 0px" class="rvps35"><span class="rvts12">To resolve, change your logo from a BMP to a JPG file in any art program&nbsp;</span></li>
+  </ul>
+ </ul>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Accounting</span></span></h2>
+<p class="rvps2"><span class="rvts6">There are several screens on the Lists screen that affect invoicing: EDI, Invoice Sorts and Lock Boxes.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">EDI</span></span></h3>
+<p class="rvps2"><span class="rvts6">This section provides a brief overview of the Electronic Invoice feature (EDI).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The Counterpoint Traffic system has the ability to produce an electronic data file for final and reprint invoices. An invoice file is automatically created in the X:\CSI\PROD\EXPORT subfolder for the agencies and direct advertisers that are defined to receive EDI files.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The EDI Screen is where you define the companies that will be delivering the Electronic Invoices.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts12">In the Site Options -&gt; Export tab</span></li>
+ <li class="rvps4"><span class="rvts12">“Using EDI Service for Invoices” Select this option if using a service to generate and send electronic invoices. You will need to indicate the EDI service in the agency screen in the “EDI: call letters” field.</span></li>
+ <li class="rvps4"><span class="rvts12">In the Site Options -&gt; Invoices tab</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Set “All vehicles on same invoice” to Yes.&nbsp;</span></li>
+  <li style="margin-left: 0px" class="rvps9"><span class="rvts12">Set “Print Final EDI Invoices” as needed:&nbsp;</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="margin-left: 0px" class="rvps35"><span class="rvts12">If left unchecked (default) the “Include EDI” checkbox &nbsp;on the invoice screen will be unchecked by default and hard copies of EDI invoices will not be printed out with the invoice run. (Simply check the option on the invoice screen to override the default and include printed copies of the EDI invoices).</span></li>
+   <li style="margin-left: 0px" class="rvps35"><span class="rvts12">If checked, the “Include EDI” option on the Invoice screen will be checked by default.&nbsp;</span></li>
+  </ul>
+ </ul>
+ <li class="rvps4"><span class="rvts12">In Site Options -&gt; Invoice tab: Spots Crossing Midnight</span></li>
+ <li class="rvps4"><span class="rvts12">Bill Spots X-Mid in Aired Month: If checked, and using EDI, then spots that cross midnight on the last day of the standard billing month will print on the invoice in the order month with a notation that they aired after midnight, but will actually bill in the next month where they truly aired.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts12"><br/></span></p>
+<p class="rvps4"><span class="rvts12">Ordered Month’s invoice:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px; background-color : #000000;" src="lib/NewItem628.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Aired month’s invoice:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px; background-color : #000000;" src="lib/NewItem627.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts12">If unchecked then the spots will be shown and billed in the ordered month:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px; background-color : #000000;" src="lib/NewItem626.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Invoice Sorts</span></span></h3>
+<p class="rvps2"><span class="rvts6">You can define a category that groups invoices with the same requirements together during the invoice run, such as Notarized Scripts Required.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Lock Boxes</span></span></h3>
+<p class="rvps2"><span class="rvts6">The Lock Box addresses are associated with an agency/advertiser, and are used if the payment from specific agencies/advertisers is to be sent to a different location.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts12">There is a checkbox in the Site Options -&gt; Invoices tab “Lock box by vehicle instead of payee” that is used if vehicles are stations and invoices are remitted to the stations, not corporate headquarters. When selected, each vehicle must have an address defined in Lists -&gt; Vehicles.</span></p>
+<p class="rvps4"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

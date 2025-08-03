@@ -1,0 +1,422 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Database Backup</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Database Backup">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Database Backup" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="DatabaseBackup"
+		  data-hnd-context="655"
+		  data-hnd-title="Database Backup"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="ITInformation.html">IT Information</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="ITInformation.html" title="IT Information" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ITInformation.html" title="IT Information" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="BATFileSetup.html" title="BAT File Setup" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Database Backup</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">The importance of backup systems can be easily understood because computers are electronic items, and they can be prone to failure. The most threatening kind of failure is data loss or corruption of data. Once you lose or corrupt your data, you have no other option than restoring it from the backup taken before data corruption or deletion. Ignoring the importance of system backups may cause permanent loss of important data.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">No matter how sound technology your computer has, no one can guarantee that it will never fail. You should take regular backups of your important data files and copy them to a safe location.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">A Counterpoint backup automatically:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Determines what data to backup</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Selects the files and folders with your data</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Allows you to set a backup schedule</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Runs entirely at the server</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Confirms your backup&nbsp;</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The benefit of the Counterpoint backup is that your data is stored in a convenient zip file format. This format can be used for any emergency restore purposes or by Counterpoint support to analyze data issues.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The backup service is the CSI_Server program and is a windows service. Windows service programs run 24/7 and will automatically be re-started if the server is re-booted. It is responsible for starting automatic backups and is also the communications gateway between the Counterpoint Applications and the backup process. It uses the settings defined in CSI_Server.ini to determine where items are located.&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Configuration Path Settings</span></span></h2>
+<p class="rvps2"><span class="rvts6">The CSI_Server.ini contains database path and other settings to specify where certain folders are located. Browse to the folder X:\CSI\Prod\Exe and open the CSI_Server.ini file.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Note: The drive letter X being shown in these examples will be replaced with your actual drive letter. This drive letter should not be a mapped drive letter and should be the drive letter which is local to the server itself.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts84">Database = X:\CSI\Prod\Data</span></p>
+<p class="rvps2"><span class="rvts84">TestDatabase = X:\CSI\Test\Data</span></p>
+<p class="rvps2"><span class="rvts84">SaveData = X:\CSI\prod\SaveData</span></p>
+<p class="rvps2"><span class="rvts84">ZeroBtr = X:\CSI\prod\zero_btr</span></p>
+<p class="rvps2"><span class="rvts84">LogFile = X:\CSI\prod\Data\Messages\CSI_Server_Log.txt</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Change these settings to properly match with your server. For instance, if the Counterpoint Applications are installed on drive C: in the CSI\Prod\Exe folder then the settings would be set as follows:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts84">Database = C:\CSI\Prod\Data</span></p>
+<p class="rvps2"><span class="rvts84">TestDatabase = C:\CSI\Test\Data</span></p>
+<p class="rvps2"><span class="rvts84">SaveData = C:\CSI\prod\SaveData</span></p>
+<p class="rvps2"><span class="rvts84">ZeroBtr = C:\CSI\prod\zero_btr</span></p>
+<p class="rvps2"><span class="rvts84">LogFile = C:\CSI\prod\Data\Messages\CSI_Server_Log.txt</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Enabling Automatic Backups</span></span></h2>
+<p class="rvps2"><span class="rvts6">Backups can be configured to run at a specific time each day. The CSI_Server.ini file contains the settings that determine when the backup is to run.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To change these settings, browse to the X:\CSI\Prod\Exe folder and open the CSI_Server.ini file. Scroll down in the file and locate the section [Backup]. Below is an example section. Based on these settings the backup will run at 2:00 am every day except on Saturday and Sunday.&nbsp;</span></p>
+<h5 class="rvps57"><span class="rvts0"><span class="rvts323">[Backup]</span></span></h5>
+<p class="rvps2"><span class="rvts6">Enabled = 1</span></p>
+<p class="rvps2"><span class="rvts6">WeekDays =1111100</span></p>
+<p class="rvps2"><span class="rvts6">Interval = 86400</span></p>
+<p class="rvps2"><span class="rvts6">StartTime = 2:00am</span></p>
+<p class="rvps2"><span class="rvts6">MonthDaysToRun =&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">WeekNumber =</span></p>
+<p class="rvps2"><span class="rvts6">TimeSlot =&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Exe = X:\CSI\Prod\\Exe\CSI_Backup.exe</span></p>
+<p class="rvps2"><span class="rvts6">StartInFolder =&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">CommandLine = C:\CSI\Prod\Data, auto</span></p>
+<p class="rvps2"><span class="rvts6">KeepProgramRunning = 0</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Installing and Starting Backup Services</span></span></h2>
+<p class="rvps2"><span class="rvts6">To start the backup service, browse to the folder X:\CSI\Prod\Exe\CSI_Server_MNGR.exe, &nbsp;and double click on the program CSI_Server_Mngr.exe.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click “Install;”, then “Start”.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The green light will show stating that the service is now running.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can now close this screen.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Running a Backup on the Server</span></span></h2>
+<p class="rvps2"><span class="rvts6">Running the CSI_Backup program directly can only be done on the server. All client PC’s need to run backups from within the Counterpoint applications only.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Creating the Shortcut</span></span></h2>
+<p class="rvps2"><span class="rvts6">First create a shortcut for CSI_Backup. Locate CSI_Backup.exe &nbsp;in the X:\CSI\Prod\Exe folder. A new shortcut will be created in the same folder called “Shortcut to CSI_Backup.exe”. Right click on this shortcut and select “Properties” from the popup menu. Change the “Start in” parameter to the data folder to backup.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Next, click on the “General” tab and change the name to something that identifies the database to be backed up.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When finished, click on “OK”.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Running the Backup</span></span></h2>
+<p class="rvps2"><span class="rvts6">You are now ready to run the backup. Double click on the shortcut icon just created. The main screen shows the database path to backup. The status window shows we are running in manual mode and also shows other information loaded from the INI file.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The “Browse” button can be used to locate a different database to backup. Select “System to Backup”. Automatic backups always backup both Traffic and Affiliate.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Press “Backup” to start the process.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Do not close the backup window while backup is running.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Each step being performed during the backup process is shown in the status window.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="474" height="224" alt="" style="padding : 1px;" src="lib/NewItem2129.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When the backup is completed, you will see the message, “Backup completed successfully”. The backup window can then be closed.&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Backup Verification</span></span></h2>
+<p class="rvps2"><span class="rvts6">Backup verification can be done from within the Traffic or Affiliate system by viewing the information in the Accessories-&gt;Messages Viewer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Any user that has access to “Site Options” can verify the last backup and change the days and time that the backup runs. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">They will need to contact Counterpoint Support for the Site Options password, and then select the Site Options-&gt;Bkup tab.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Once the “Using CSI Backup” option has been checked, any day and time changes that are made here are automatically updated to the CSI_Server.ini.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Using CSI Backup and Days to run: Indicate that you are using the Counterpoint Backup program, select the days on which you wish to run your backup, and enter a time to run the backup that will not interfere with any other programs running on your server. </span><span class="rvts6">The file name will appear in the yellow field automatically once you run a backup. The naming structure is T+A (Traffic and Affiliate), the database name as defined in “Client Name Abbreviation” (Site Options-&gt;General), the month/date/year, the database version, and the DDF file dates The File Location, Date, and Time of the last backup will automatically update. The backup is saved in the CSI\Prod\SaveData folder. </span><span class="rvts6">The file size of the last backup will automatically update</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Running the Backup From the Traffic System</span></span></h2>
+<p class="rvps2"><span class="rvts6">Select “Task”, “Backup”, “Complete System Backup”.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Running the Backup From the Affiliate System</span></span></h2>
+<p class="rvps2"><span class="rvts6">Select “File”, “Backup”, “Complete System Backup”.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The backup screen will display showing when the last backup was performed along with the current backup state.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Press “Start” to begin and you will see the current backup status as the backup progresses. You can close the Counterpoint Backup Screen and continue working within Counterpoint as the backup progresses.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If a manual or automatic backup is currently in progress, the “Current backup state” will say that a backup is currently in progress and will disable the “Start” button to prevent two backups from running at the same time.&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Backup Failure Notifications</span></span></h2>
+<p class="rvps2"><span class="rvts6">If any errors occur during the backup process, you will receive an error message.</span></p>
+<p class="rvps2"><img width="573" height="132" alt="" style="padding : 1px;" src="lib/NewItem2120.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Access the server where backups are running and browse to the X:\CSI\Prod\Exe folder. Double click on the CSI_Backup shortcut program to attempt a manual backup.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">CSI_Backup will detect this condition and the error message will be shown in the status window. &nbsp;“WARNING: Database files are stuck in Continuous mode.”</span></p>
+<p class="rvps2"><img width="570" height="271" alt="" style="padding : 1px;" src="lib/NewItem2119.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Click “Take Files out of Continuous Mode” to resolve the issue.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">You will be prompted whether to open each file or not. Select “Yes”. Select “Yes” tells CSI_Backup to open and hold each file open until PSQL has rolled the delta files back in to the main table.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">If CSI_Backup is still unable to resolve the issue, ensure all users are logged off the server and re-boot it. After the server has restarted, run CSI_Backup again and click the button “Take Files out of continuous mode”.</span></li>
+</ol>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts87">Backup Troubleshooting Tips</span></span></h2>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">Verify CSI_Server is running</span></span></h4>
+<p class="rvps2"><span class="rvts6">Refer to “Starting the backup service” and verify the traffic light is green.</span></p>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">Verify Port 5305 is Open</span></span></h4>
+<p class="rvps80"><span class="rvts125">The Windows Firewall on certain machines block ports over 5000. Port 5305 must be opened to run the Counterpoint Backup and to prevent a lag in sign on time. </span><span class="rvts308">Select</span><span class="rvts125"> Counterpoint on the Exceptions tab, or manually open port 5305 in Windows Firewall to allow Counterpoint to communicate using Port 5305.&nbsp;</span></p>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">Verify CSI_Server is logging messages</span></span></h4>
+<p class="rvps2"><span class="rvts6">CSI_Server will detect when its ini file is changed within 15 seconds. A good test to verify if CSI_Server is running ok is to open the CSI_Server.ini file and save it and then verify that CSI_Server properly detected this. Do the following actions to perform this check.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Open the file X:\CSI\Prod\Exe\CSI_Server.ini file and from the main menu select “File”, “Save”, then select “File”, “Exit”. Wait at least 15 seconds and then browse to the X:\csi\prod\data\messages folder and verify that the CSI_Server_Log.txt files date and time is set to approximately the current time when the save was performed. You can also open the CSI_Server_Log.txt file and verify that the following statement was recently written to it, &nbsp;“CSI_Server.ini settings are being reloaded”. This statement will be followed by all sections defined as well.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If this test did not work it may be due to a previous version of the CSI_Server being stuck. Perform the steps outlined in the next section called “How to remove a previous stuck version of CSI_Server”</span></p>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">Un-installing a previous version of Backup Services</span></span></h4>
+<p class="rvps2"><span class="rvts6">&nbsp;If a previous version of the backup gets stuck in Continuous Mode, you may have to uninstall the version.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">To remove an already running backup service, browse to the folder X:\CSI\Prod\Exe\ and double click on the program CSI_Server_Mngr.exe.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click “Stop”, then “Remove”. The yellow light shows stating that the service is now stopped and un-installed.</span></p>
+<p class="rvps3"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You must now restart the PC.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Once the PC has restarted, Start the Backup Services by clicking “Install”, then “Start”.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The green light will show stating that the service is now running.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can now close this screen.</span></p>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">Backup Has Not Occurred Warning Message</span></span></h4>
+<p class="rvps2"><span class="rvts6">Occasionally, this message will appear to Traffic and/or Affiliate users:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem2116.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The CSI_Server.ini database path specifies where the database is located that should be backed up. The database cannot be on a mapped drive and must be on the same machine on which PSQL is installed.</span><span class="rvts321">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><span class="rvts321">&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps194"><span class="rvts12">Check Site Options -&gt; Backups, to determine the date of the last backup</span></li>
+ <li class="rvps194"><span class="rvts12">Look in the SaveData location and verify the date of the last backup</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps195"><span class="rvts12">The save location for the backup file is specified on the SaveData path on the csi_server.ini file</span></li>
+ </ul>
+ <li class="rvps194"><span class="rvts12">The save data folder can be on a mapped drive</span></li>
+ <li class="rvps194"><span class="rvts12">DZIPLOG.TXT lists the files that were backed up as well as any files that were skipped</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps195"><span class="rvts12">DZIPLOG.TXT and can be found in the users system directory, most likely C:\Winnt</span></li>
+ </ul>
+ <li class="rvps194"><span class="rvts12">Stop/Start CSI Server Manager, and see if this resolves the warning message</span></li>
+</ul>
+<p class="rvps12"><span class="rvts322"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

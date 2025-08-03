@@ -3,10 +3,14 @@
 
 # But don't ignore these specific folders
 
+
 !/srctraf/
-!/reports/V81
 !/srcaff/
+# !/reports/
+!/reports/V81
 !/Engineer/
+!/help/
+!/docs/
 
 # Don't ignore .gitignore itself
 !.gitignore

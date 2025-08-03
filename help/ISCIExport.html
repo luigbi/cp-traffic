@@ -1,0 +1,416 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>ISCI Export</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ISCI Export">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="ISCI Export" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ISCIExport"
+		  data-hnd-context="574"
+		  data-hnd-title="ISCI Export"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="AffiliateSystem.html">Affiliate System</a></li><li><a href="AffiliateExports.html">Affiliate Exports</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AffiliateExports.html" title="Affiliate Exports" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="IDC.html" title="IDC" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ISCICrossReferenceExport.html" title="ISCI Cross Reference Export" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>ISCI Export</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">The Affiliate ISCI Export is used to send commercial audio providers a list of the ISCIs to air. Each vehicle can be designated with a different type of audio provider. Each vehicle can be designated with a different type of audio provider and/or delivery method. &nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">ISCI Setup</span></span></h2>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Prior to setup</span></span></h3>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">Are you going to export Unique ISCI (ie Mr Masters, etc.) or ISCI by Break?</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">If ISCI By Break, each day must be run individually</span></li>
+ </ul>
+ <li class="rvps163"><span class="rvts12">Is the content provider giving you Program ID numbers?</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">If Yes in Site Options -&gt; Automation, turn on X-Digital by Break to access toggle in Vehicle -&gt; Options -&gt; Interface -&gt; program ID field.</span></li>
+ </ul>
+ <li class="rvps163"><span class="rvts12">Are the program ID numbers numeric or alphanumeric?</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">If alphanumeric in Vehicle -&gt; Interface – X Digital Avail form: change the toggle to be H#B#. This will let you define the alphanumeric, otherwise you can only define numeric</span></li>
+ </ul>
+</ul>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Traffic&nbsp;</span></span></h3>
+<p class="rvps2"><span class="rvts6">You must activate the ISCI Export in Traffic -&gt; Site Options -&gt; Automation.</span></p>
+<p class="rvps2"><img width="619" height="125" alt="" style="padding : 1px;" src="lib/NewItem1818.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">In Traffic -&gt; Vehicle Options -&gt; Producer, you must enter the Commercial Content Provider’s Information. This only needs to be defined if you are using Unique ISCI’s. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If you have been given a Program ID from your Audio Provider, enter it in Traffic -&gt; Vehicle Options -&gt; Interface. Click the ISCI toggle until it says H#B#, this will allow the Program ID field to be used and an alphanumeric code to be entered. If you do not, you can only enter numbers in the Vehicle ID field.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On the Vehicle Options screen, Interface tab, for each vehicle that will use the ISCI export, the setting “Export ISCI by Pledge (unchecked means by feed)” must be set. This setting is used to determine whether spots are grouped under a separate E command by each unique pledge time or by each unique feed time. This setting is also used – along with the internal spot ID - to determine if a spot is considered a duplicate or not, as the general rule is that duplicate spots with the same time are ignored by the export, but whether the time is considered the same depends on whether the pledge time or feed time setting is used, which is important for agreements with mutiple airplays. For example, if station KAAA-FM has multiple airplays, and the ISCI export is by pledge, and the pledge times for the duplicated airplays are unique, then the multiple airplays will be included on the export. For example, there could be a 6pm fed break, with two airplays, where airplay 1 is pledged to air at 6p and airplay 2 is pledged to air at 6:30p, and in that case, because the pledge time setting is being used, and the pledge times are unique for both breaks, then spots from both breaks would be shown. As another example, where station KAAA-FM has multiple airplays, and the ISCI is by pledge, but the pledge times are the same – for example, that 6p fed break with two airplays, but both are pledged to air at 6pm – then only airplay 1 would be shown, because the pledge times (and internal spot IDs) are the same. On the other hand, if KAAA-FM had multiple airplays, and the ISCI is by feed, if the feed times are the same for both airplay 1 and 2, then only airplay 1 will be included.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Affiliate</span></span></h3>
+<h4 class="rvps15"><span class="rvts0"><span class="rvts45">Station -&gt; Personnel&nbsp;</span></span></h4>
+<p class="rvps2"><span class="rvts6">The people in the Station -&gt; Personnel screen with email addresses and that have ISCI Export checked on will be included in the output if “Include ISCI Export Contacts Email” is checked on during export generation.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Export Selectivity</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">Unique ISCI: Produces a list of all the generic and split regional ISCI codes unique to each affiliate. If using Unique ISCI, two additional options appear:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">By Vehicle: Which lists all the generic and regional ISCI codes unique to a vehicle for a span of dates. As stated above, if using this method, you must have a producer defined in the Traffic -&gt; Vehicles -&gt; Options -&gt; Producer tab .</span></li>
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">By Vehicle and Station: Which lists all the generic and regional ISCI codes unique to each affiliate of a vehicle for a span of dates.</span></li>
+ </ul>
+ <li class="rvps163"><span class="rvts12">ISCI by Break: Produces a list of each spot to air for each station in log order with the generic or split copy, in break and position number order. If using ISCI by Break two additional options appears:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">Program Segments: If program segments should be included with the export, one will be placed before the first break, and one after each other break in the vehicle.&nbsp; If the last break contains nothing but Promos, no program segment will be generated after it</span></li>
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">Spot ID: This will send the internal spot ID number with the export, allowing Counterpoint to update exact aired times&nbsp;</span></li>
+ </ul>
+ <li class="rvps163"><span class="rvts12">ISCI Export Contact(s) Email: The Aff/Email Contact from the Stations Screen -&gt; Personnel tab will be included on the export.&nbsp;</span></li>
+ <li class="rvps163"><span class="rvts12">Export to folder: Select the folder to which you want to save your Files (generally CSI\Prod\Export)</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">ISCI Export File Name</span></span></h2>
+<p class="rvps2"><span class="rvts6">The export is given the name of the vehicle, followed by mmddyy, for example John_&amp;_Jeff_063010.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">If you stay in the ISCI Export screen after generating an export and generate a second &nbsp;export, the initial export is appended with the output of the subsequent export (Unique ISCI only).&nbsp;</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">Example: &nbsp;An export is generated for CST stations with the name “John_&amp;_Jeff_063010” and a subsequent export is generated for the same vehicle for the MST stations, the second export will be appended to the original “John_&amp;_Jeff_063010” file. You will have one file with the CST and MST ISCI information</span></li>
+ </ul>
+ <li class="rvps163"><span class="rvts12">If you exit the ISCI Export screen between generating exports, it will overwrite any output files with the same name.</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">Example: &nbsp;An export is generated for CST stations for vehicle John_&amp;_Jeff_063010. &nbsp;You exit the screen, then go back into the screen and create another export for the MST stations for the vehicle John and Jeff. &nbsp;The original file is replaced by the new John_&amp;_Jeff_081010. &nbsp;You will have one file with the MST ISCI information</span></li>
+ </ul>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Mr. Master Export Structure</span></span></h2>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Naming Structure</span></span></h3>
+<p class="rvps2"><span class="rvts6">The rule for naming the files is ccccc_mmddyy_L.TXT, where ccccc is the abbreviated name of the content provider, mmddyy is the date the file was generated, and L means the file is in the LOG format. The file will be stored in the location specified as the Export directory in the AFFILIAT.INI file, typically, CSI\Prod\Export.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">File Contents</span></span></h3>
+<p class="rvps2"><span class="rvts6">The file contents are ASCI records, with each record terminated by a carriage return/line feed. &nbsp;The types of records are distinguished by the first character of each entry.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts32">A</span><span class="rvts6"> records – the date of the log being exported</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts32">B</span><span class="rvts6"> records - the name(s) of the vehicles whose logs are being generated, plus the word “New” or “Revised”</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts32">C</span><span class="rvts6"> records – the call letters of each station which is affiliated that week with the specified vehicle</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts32">D</span><span class="rvts6"> records – the audio that needs to be sent to each station, identified by the placement code, ISCI code, and advertiser name</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps18"><span class="rvts6">The placement code is comprised of three parts – hour, break, and position. &nbsp;The hours are numbers for each show from 01 to 24. &nbsp;The break numbers start at 01 for each hour. &nbsp;The position numbers start at 01 for each break</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts32">E</span><span class="rvts6"> records – The E record includes the year, week number, day, XDS Program Code (from Vehicle Options), a dash, the letter H followed by the hour number, the letter S followed by the segment number, and finally the word “Show”.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps62"><span class="rvts32">F</span><span class="rvts6"> records – the email address of the Affiliate contact at the station (ISCI export setting checked on the Stations screen Personnel tab).</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Output File</span></span></h2>
+<p class="rvps2"><span class="rvts6">The placement codes, ISCI codes, and advertiser names in the D records will be separated by Tab characters. &nbsp;To make sure a user does not accidentally enter a tab character in the ISCI code or advertiser name, Counterpoint will scan for them, and replace any found with blanks. (Note – in the following examples, the Tab characters in the B and D records are represented by a ¶, since the Tab isn’t printable).&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">This example is for a file containing 2 dates for 2 Vehicles. &nbsp;The George Carlin Vehicle is 2 hours long and contains 2 commercial breaks, one at quarter past the hour, and one at three-quarters past the hour, with each break holding 2 minutes (which could be a mixture of 4 30s”, 2 60s”, or 2 30s” and 1 60”). &nbsp;It has 3 affiliates. Harry Chapin Vehicle is 30 minutes long, and contains three 15” breaks, each of which holds one 15” spot. It has 2 affiliates. &nbsp;George Carlin is being sent for the first time for this week. &nbsp;Harry Chapin is a revision, so it is being re-sent. &nbsp;Note that all stations carry the same spots for each vehicle, except the very first spot for George Carlin on KAAA-FM, which is a regional spot to be run only on KAAA-FM.</span></p>
+<p class="rvps2"><span class="rvts109"><br/></span></p>
+<p class="rvps2"><span class="rvts237">A</span><span class="rvts6">11/30/09&nbsp;</span></p>
+<p class="rvps2"><span class="rvts237">B</span><span class="rvts238">George Carlin¶</span><span class="rvts231">GCC</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KAAA-FM</span></p>
+<p class="rvps2"><span class="rvts239">E</span><span class="rvts231">0101¶</span><span class="rvts239">0949</span><span class="rvts231">-</span><span class="rvts239">GCC</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 7474¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010102¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts239">E</span><span class="rvts231">0102¶</span><span class="rvts239">0949</span><span class="rvts231">-</span><span class="rvts239">GCC</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶cnfnr 40304¶Ac Delco</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010202¶vnfnr 49583¶Savon</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010203¶djsj 29394¶Ford</span></p>
+<p class="rvps2"><span class="rvts6">E0103</span><span class="rvts231">¶</span><span class="rvts239">0949</span><span class="rvts231">-</span><span class="rvts239">GCC</span></p>
+<p class="rvps2"><span class="rvts239">Fjohn.jones@kaaa.com</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KBBB-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 3923¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010102¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶cnfnr 40304¶Ac Delco</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010202¶vnfnr 49583¶Savon</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010203¶djsj 29394¶Ford</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KCCC-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 3923¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010102¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶cnfnr 40304¶Ac Delco</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010202¶vnfnr 49583¶Savon</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010203¶djsj 29394¶Ford</span></p>
+<p class="rvps2"><span class="rvts237">B</span><span class="rvts238">Harry Chapin¶Revised</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KAAA-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 3923¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010301¶cnfnr 40304¶Ac Delco</span><span class="rvts237">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KBBB-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 3923¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010301¶cnfnr 40304¶Ac Delco</span><span class="rvts237">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts237">A</span><span class="rvts6">12/01/09&nbsp;</span></p>
+<p class="rvps2"><span class="rvts237">B</span><span class="rvts238">George Carlin¶New</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KAAA-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 7474¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010102¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶cnfnr 40304¶Ac Delco</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010202¶vnfnr 49583¶Savon</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010203¶djsj 29394¶Ford</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KBBB-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 3923¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010102¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶cnfnr 40304¶Ac Delco</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010202¶vnfnr 49583¶Savon</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010203¶djsj 29394¶Ford</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KCCC-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 3923¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010102¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶cnfnr 40304¶Ac Delco</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010202¶vnfnr 49583¶Savon</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010203¶djsj 29394¶Ford</span></p>
+<p class="rvps2"><span class="rvts237">B</span><span class="rvts238">Harry Chapin¶New</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KAAA-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 3923¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010301¶cnfnr 40304¶Ac Delco</span><span class="rvts237">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts237">C</span><span class="rvts6">KBBB-FM</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010101¶ahsh 3923¶Sears</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010201¶djfjd 4934-434¶ATT</span></p>
+<p class="rvps2"><span class="rvts237">D</span><span class="rvts6">010301¶cnfnr 40304¶Ac Delco</span><span class="rvts237">&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Station Filter</span></span></h2>
+<p class="rvps2"><span class="rvts6">On version 7.1 and above, station filters are available on the export screen and can be used to filter the station list. The following filters are available: DMA, Format, MSA, State, and Station.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="611" height="169" alt="" style="padding : 1px;" src="lib/NewItem1815.png"></p>
+<p class="rvps2"><span class="rvts6">When selecting the DMA, Format, MSA, or State filter, the box to the right shows the available DMAs, Formats, MSAs, or States. (Note: the Station’s Mailing Address State is the state that is used.)&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1814.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Select one or more choices from the selection box to filter the list of stations by the selected criteria. By default, the Station filter is selected. When the Station filter is selected, the list box on the right has no effect. (Use the regular Station list box to select or de-select stations when using the Station filter.)</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On version 7.1 and above, by default, the station list does not show any stations and instead shows the text “To see stations, uncheck All Stations below”. When the “all stations” checkbox is checked on, the list of stations is simply not shown, but it either includes all stations, or if the station list is filtered, those stations that meet the filter criteria (and that apply to the selected vehicles). To see the stations in the station list, uncheck the “all stations” checkbox.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the station list is filtered using one of the available filters, then only those stations will be exported. For example, if Vehicle A is selected, and the New York DMA filter is used to filter the station list for Vehicle A, when exporting, only the stations defined with the New York DMA and that are affiliated with Vehicle A for the selected date span will be exported.</span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

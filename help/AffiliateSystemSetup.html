@@ -1,0 +1,376 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Affiliate System Setup</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Affiliate System Setup">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Affiliate System Setup" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="AffiliateSystemSetup"
+		  data-hnd-context="608"
+		  data-hnd-title="Affiliate System Setup"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="AffiliateSystem.html">Affiliate System</a></li><li><a href="AffiliateExports.html">Affiliate Exports</a></li><li><a href="X-Digital.html">X-Digital</a></li><li><a href="X-DigitalSetup.html">X-Digital Setup</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="X-DigitalSetup.html" title="X-Digital Setup" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="TrafficSystemSetup.html" title="Traffic System Setup" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="X-DigitalExportProcedures.html" title="X-Digital Export Procedures" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Affiliate System Setup</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">This section covers additional setup steps that must be performed on the Affiliate System.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">X-Digital Station ID</span></span></h2>
+<p class="rvps2"><span class="rvts6">The Station ID is what X-Digital uses to identify the Affiliate’s receiver. This code must match exactly to what is in the X-Digital System.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">X-Digital will have provided you with a list of X-Digital Station IDs that need to be entered on the Agreement or Station level. Normally, when generating the X-Digital export, the Counterpoint Affiliate system will first attempt to use the X-Digital Station ID defined on the Agreement. If there is no X-Digital Station ID on the Agreement, it will next attempt to get the X-Digital Station ID from the Stations screen Interface tab. However, it is possible to add a setting (ReceiverIDSource, described above) to the XML.ini that allows you to specify where to get the Site ID from. The available options are:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">A = use the Site ID defined on the agreement&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">B = use the agreement Site ID first if it exists, if not, use the Station Site ID</span></p>
+<p class="rvps2"><span class="rvts6">S = use the Station Site ID only&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">N = Don't send the Site ID</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Affiliate Agreement Screen&nbsp;</span></span></h2>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Delivery Tab</span></span></h3>
+<p class="rvps12"><span class="rvts6">To enable the X-Digital export for an agreement, go to the Delivery tab and check “X-Digital-Break” or “X-Digital-ISCI” in the Audio Delivery Service area.</span></p>
+<p class="rvps2"><span class="rvts6">When selecting “X-Digital-ISCI” or “X-Digital-Break”, the following additional options will become available:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts32">Voice-Tracked</span><span class="rvts6">: When this is set to Yes, the station will insert the host’s voice track and spots into their programming. These spots do not get exported to X-Digital or generate an X-Digital autorization export. If exporting spots via X-Digital, set this to “No”.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts32">X-Digital Station ID</span><span class="rvts6">: Enter the station’s receiver ID in this field (if needed).</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If you use #Air Plays to increase the number of spots aired, X-Digital agreements will only have spots sent once, regardless of the #Air Plays defined.</span></p>
+<p class="rvps2"><span class="rvts62"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Note: for multicast agreements, check on the X-Digital audio delivery checkbox for both agreements, and define the X-Digital Station ID for one. Under this configuration, the data for only one station in the multicast group will be exported, and in the case of the X-Digital import, which imports airing information directly from X-Digital and updates it on the Counterpoint Affidavit website, the data from one station will be used to post both stations. If a Station ID is defined for both stations, the same content will be sent to X-Digital twice, separately for each station, and posted twice (in the case of the X-Digital import), which will not cause any harm, but it's not necessary to set up multicast agreements like that.</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">X-Digital – Treat “Not Carried” as “Aired”</span></span></h3>
+<p class="rvps2"><span class="rvts6">On version 7.1 and above, there’s an additional checkbox labeled “Treat ‘Not Carried’ the same as ‘Aired’”, to the right of the Audio Delivery Service section.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When checked on, spots from a pledge marked as “not carried” will be exported to X-Digital during the X-Digital export process as if the pledge was marked as “aired”. When not checked on, then “not carried” pledges will be bypassed like before. new option applies to all three X-Digital avail forms: Hour/Break, Hour/Break/Position, and ISCI. It also applies to exports run for “all spots” or for “regional only”. This setting only affects the X-Digital export however, so spots from “not carried” pledges will still not be sent to the web through the CSI Electronic Affidavit export, or other web spot exports.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Stations screen – </span></span><a name="_Toc340762031"></a><span class="rvts0"><span class="rvts31">Interface Tab</span></span></h2>
+<p class="rvps2"><span class="rvts6">On the Stations screen&gt;Interface tab, check on the “X-Digital” option in the “Used for” section.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">In addition, if the X-Digital Station IDs provided to you were meant to be used on the Station level, enter them in the XDS Station ID field on the Interface tab.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">Serial #1 and Serial #2 are not used by X-Digital.&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Stations screen – Personnel Tab</span></span></h2>
+<p class="rvps2"><span class="rvts6">The contact sent to X-Digital for the station is the first contact that has the 'Aff E-mail' check mark in the station/personnel form. &nbsp;If there is no name with the Aff-Email indicator, the first name in the personnel list will be used.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">User Options Screen</span></span></h2>
+<p class="rvps2"><span class="rvts6">Setup Users to receive Alerts that Logs have been generated in Traffic and are ready to be exported in the User Options -&gt; Restrictions screen, by turning the following Alert fields green: Export Spots, Export ISCI, Traffic Reprint Logs/CPs.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Affiliate System Site Options</span></span></h2>
+<p class="rvps2"><span class="rvts6">Additional X-Digital options are available in the Affiliate Site Options screen.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If using the X-Digital playback feature. The following must be checked: "Support X-Digital Automatic Playback feature".</span></p>
+<p class="rvps2"><img width="622" height="64" alt="" style="padding : 1px;" src="lib/NewItem1914.png"></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Send to X- Digital Site Options Questions</span></span></h3>
+<p class="rvps2"><span class="rvts6">&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">In addition to the X-Digital spot information that gets sent as part of the X-Digital export, the Station Information, Agreement Information and Vehicle Information checkboxes allow you to upload Station Information, Agreement Information and Vehicle information during the regular X-Digital export process.</span></li>
+ <li class="rvps163"><span class="rvts12">When using any or all of these options, whenever there is an update made to the Station, Agreement, or Vehicle Information, that item will be flagged and uploaded to X-Digital during the next X-Digital export that is performed</span></li>
+ <li class="rvps163"><span class="rvts12">If you leave these boxes unchecked, no Station, Agreement, or Vehicle information will be sent (aside from the X-Digital spot information that gets sent normally as part of the X-Digital export)</span></li>
+ <li class="rvps163"><span class="rvts12">The Station Information checkbox must be checked to allow station information to be exported. The Vantive section of the XML.ini must also be defined to use this feature for the ISCI (Cumulus) export method.</span></li>
+ <li class="rvps163"><span class="rvts12">Agreement Information: This option sends agreement information (also sometimes referred to as Authorization Information) for by Break and by ISCI avail form vehicles. The Vantive section is required on the XML.ini for the ISCI avail form for vehicles for which agreement information must be exported. For the ISCI avail form, the information sent differs slightly for Non-Sports Vehicles and Sport Vehicles, as shown below.</span></li>
+</ul>
+<p class="rvps163"><span class="rvts12"><br/></span></p>
+<p class="rvps163"><span class="rvts12">ISCI avail form: Non-Sports Vehicle example:</span></p>
+<p class="rvps2"><span class="rvts6">&lt;NewDataSet&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;SIS_CLEARANCE_VW&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ClearanceId&gt;4&lt;/ClearanceId&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ClearanceStartDate&gt;12/6/2014&lt;/ClearanceStartDate&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ClearanceEndDate&gt;12/31/2069&lt;/ClearanceEndDate&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;SiteId&gt;6644&lt;/SiteId&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;NetworkId&gt;777&lt;/NetworkId&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;Status&gt;active&lt;/Status&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;/SIS_CLEARANCE_VW&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;/NewDataSet&gt;</span></p>
+<p class="rvps163"><span class="rvts12"><br/></span></p>
+<p class="rvps163"><span class="rvts12">ISCI avail form: Sports Vehicle example:</span></p>
+<p class="rvps2"><span class="rvts6">&lt;NewDataSet&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;SIS_CLEARANCE_VW&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ClearanceId&gt;456693942&lt;/ClearanceId&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ClearanceStartDate&gt;12/25/2014&lt;/ClearanceStartDate&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ClearanceEndDate&gt;12/26/2014 06:00:00&lt;/ClearanceEndDate&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;SiteId&gt;10002&lt;/SiteId&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;NetworkId&gt;889&lt;/NetworkId&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;Status&gt;active&lt;/Status&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ProgramCode&gt;Test&lt;/ProgramCode&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;/SIS_CLEARANCE_VW&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;/NewDataSet&gt;</span></p>
+<p class="rvps163"><span class="rvts12"><br/></span></p>
+<p class="rvps163"><span class="rvts12">By Break avail form example:</span></p>
+<p class="rvps2"><span class="rvts6">&lt;Authorization&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;AuthorizationId&gt;1234&lt;/AuthorizationId&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;AuthorizationTestDate&gt;&lt;/AuthorizationTestDate&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;AuthorizationStartDate&gt;11/26/2012&lt;/AuthorizationStartDate&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;AuthorizationEndDate&gt;6/23/2013&lt;/AuthorizationEndDate&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;SiteId&gt;998&lt;/SiteId&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ProgramCode&gt;Test&lt;/ProgramCode&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;ProgramName&gt;TestVehicle&lt;/ProgramName&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;Rights&gt;All&lt;/Rights&gt;</span></p>
+<p class="rvps2"><span class="rvts6">&lt;/Authorization&gt;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Note: For sports vehicles using the ISCI avail form, the Clearance ID is a unique number generated during the export process. The clearance end date is always the event date +1 day, followed by 6am. This ensures all spots crossing midnight are covered. The Program ID Code comes from the Event Schedule defined in the Programming screen (If using the ISCI method, &nbsp;the Program ID field will be enabled in the Programming&gt;Event Schedule screen).</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps163"><span class="rvts12">Vehicle Information: This setting can only be used when the following conditions are met:</span></li>
+ <li class="rvps163"><span class="rvts12">Using the Cumulus head end</span></li>
+ <li class="rvps163"><span class="rvts12">Using the ISCI Avail Method</span></li>
+ <li class="rvps163"><span class="rvts12">Have a vehicle ID defined greater than 0</span></li>
+ <li class="rvps163"><span class="rvts12">Have a valid LogFile Path in the XML.INI</span></li>
+ <li class="rvps163"><span class="rvts12">The vehicles must be selected on the X-Digital vehicle list&nbsp;</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps25"><span class="rvts6">Generate the Transparent File: Creates CSV Transparency files during the Spot Insertion export process</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps16"><span class="rvts6">When checked, the system produces 9 CSV files listing information on airing spots, which can be used externally. The different files are: Advertisers, Agencies, Contracts, DMAs, ISCIs, Programs, Station Groups, Stations, and Units. This option is only applicable to the X-Digital “by break” avail form</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="margin-left: 0px; text-indent: 0px" class="rvps60"><span class="rvts6">If the XDS Merge feature is being used, the Programs file will list the name of the Child Vehicle (The vehicle with ‘Merge’ defined as its XDS Program ID), along with the Parent Vehicle’s name.</span></li>
+  </ul>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps16"><span class="rvts6">The file naming convention is “Transparency_name_GenerationDate.CSV” (with the name being Advertisers, Agencies, etc., and the generation date being the start date of the export YY_MM_DD), resulting in as an example: Transparency_Advertiser_13_05_03.CSV</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="margin-left: 0px; text-indent: 0px" class="rvps60"><span class="rvts6">If you regenerate the file, the additional information will be appended to the original file</span></li>
+  </ul>
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">This file will include all the spots airing on the selected vehicles for the exported date span. The transparency file will output the same information whether the X-Digital export is run for all spots or regional only</span></li>
+  <li style="margin-left: 0px" class="rvps34"><span class="rvts12">The Feed date is used for the Unit Scheduled Date</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Nine files are created. For each spot, the following information will appear:</span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1921.png"><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

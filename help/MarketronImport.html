@@ -1,0 +1,423 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Professional Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Marketron Import</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Marketron Import">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Marketron Import" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Counterpoint Help System" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Counterpoint Help System</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="MarketronImport"
+		  data-hnd-context="614"
+		  data-hnd-title="Marketron Import"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="AffiliateSystem.html">Affiliate System</a></li><li><a href="AffiliateImports.html">Affiliate Imports</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AffiliateImports.html" title="Affiliate Imports" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="CounterpointAffidavitImport.html" title="Counterpoint Affidavit Import" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="SpotDataImport.html" title="Spot Data Import" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Marketron Import</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts6">To import aired information, select File -&gt; Import -&gt; Marketron in the upper left hand corner. From the Import Screen, click “Import”; there is no selectivity, the files are downloaded from the web and placed into a folder of the client’s name, such as: CSI\Prod\Import\XYZBroadcasting.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">After processing, the files are then moved to a subfolder: CSI\Prod\Import\XYZBroadcasting\Completed. &nbsp;Files that were not read properly are marked as ‘Unread’ in the title. &nbsp;Files are stored for 365 days.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Example Import</span></span></h2>
+<p class="rvps2"><span class="rvts6">This is an example of what Marketron is sending:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps185"><span class="rvts315">&lt;Affidavit&gt;&lt;AffidavitGUID&gt;BB2D1891-DBC1-4063-A305-DBE5A6296D1F&lt;/AffidavitGUID&gt;&lt;AffidavitRevision&gt;1&lt;/AffidavitRevision&gt;&lt;OrderID&gt;Ace and TJ Ros\KBLXFM\20101122&lt;/OrderID&gt;&lt;CallLetters&gt;KBLX&lt;/CallLetters&gt;&lt;Band&gt;FM&lt;/Band&gt;&lt;Signature&gt;MySig&lt;/Signature&gt;&lt;SignedUTC&gt;2010-11-22T19:50:39.017&lt;/SignedUTC&gt;&lt;ProgramName&gt;Ace and TJ Ros&lt;/ProgramName&gt;&lt;OrderStartDate&gt;2010-11-22&lt;/OrderStartDate&gt;&lt;OrderEndDate&gt;2010-11-28&lt;/OrderEndDate&gt;&lt;Comment&gt;This affidavit was generated from a stored procedure.&lt;/Comment&gt;&lt;AffidavitSpots&gt;AffidavitSpot&gt;&lt;SpotID&gt;228186682&lt;/SpotID&gt;&lt;DateAired&gt;2010-11-26&lt;/DateAired&gt;&lt;TimeAired&gt;06:03:00&lt;/TimeAired&gt;&lt;Length&gt;30&lt;/Length&gt;&lt;ISCICode /&gt;&lt;CopyTitle /&gt;&lt;AffidavitSpotStatus&gt;Aired&lt;/AffidavitSpotStatus&gt;&lt;DescrepancyNote /&gt;&lt;/AffidavitSpot&gt;&lt;/AffidavitSpots&gt;&lt;/Affidavit&gt;</span></p>
+<p class="rvps185"><span class="rvts315">Marketron only indicates whether a spot has been aired or missed. If a spot airs outside of pledge time or daypart, it is flagged as non-compliant by the Counterpoint Affiliate system, not by the Marketron import. If a spot is not mentioned, it is reported as missed in Counterpoint.&nbsp;</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Information Fields Imported</span></span></h2>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">AffidavitGUID</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Marketron only code</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Affidavit Revision</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Marketron only code</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">OrderID</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps186"><span class="rvts315">Counterpoint matches on the</span><span class="rvts316"> </span><span class="rvts315">&lt;OrderID&gt;George Carlin\KHHHFM\19991220&lt;/OrderID&gt; exported for reconciliation</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Call Letters</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">KHHH</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Band</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">FM</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Signature</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">This is the name of the person at the station that is completing the affidavit</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">SignedUTC</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">This is the date and time that the affidavit is being returned</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">ProgramName</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">This is the Vehicle name being imported &lt;ProgramName&gt;George Carlin&lt;/ProgramName&gt;</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">OrderStartDate</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">This is either the Monday date of the week being imported</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">OrderEndDate</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">This is either the Sunday date of the week being imported</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Comment</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">This is a Copy Comment from Counterpoint Traffic</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">SpotId</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Unique ID generated in Counterpoint used for reconciliation</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">DateAired</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Comes from Marketron</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">TimeAired</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Comes from Marketron</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Length</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Comes from Traffic</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">ISCICode</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Comes from Traffic</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">CopyTitle</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Comes from Traffic</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">AffidavitSpotStatus</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Comes from Marketron</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">DescrepancyNote</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Comes from Marketron</span></li>
+ </ul>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Importing Makegoods and Missed Spots</span></span></h2>
+<p class="rvps2"><span class="rvts6">Occasionally, a spot may be madegood on a sister station within its group.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Follow these procedures to accommodate these special cases:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Marketron stations will post the exact times aired on each spot, and submit an Affidavit for the entire week to Counterpoint (Marketron cannot submit an affidavit for single day or a single spot).</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If a spot airs on the wrong day, wrong time, wrong vehicle, or wrong station, but in the ordered week, it will be included in the submission for that week, and Counterpoint knows to flag it as a MG.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">The submission to Counterpoint does not include any information about missed spots.&nbsp;</span></li>
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps183"><span class="rvts12">Thus, at the end of each submission, Counterpoint infers that any spots not submitted are missed, and flags them as such. &nbsp;A special list of these missed spots is kept in the Counterpoint system.</span></li>
+ </ol>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">When spots that are missed by the stations are given MGs in subsequent weeks, and are posted as aired by the station, Marketron updates the date and time aired on the original missed spot.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">The only way to get that MG information back to Counterpoint is if the station remembers to re-submit the affidavit for the missed week.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Counterpoint will reset all spots in the re-submitted weeks, including those previously-flagged as missed, to their original ordered days and time, and then re-post the entire week.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">Those spots that are still missed get re-flagged as such, and any makegoods found are updated.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">The Affiliate Spot Management report can be run at any time to show what missed spots have yet to be made good by the stations.</span></li>
+</ol>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Importing Mismatched Spots</span></span></h2>
+<p class="rvps2"><span class="rvts6">If spot additions/deletions are in Traffic or Affiliate after the Marketron export has been generated, those changes will not appear in the Marketron system unless the entire log is re-exported.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When these unusual cases arise, the system follows a set of rules to try to match the spots during the import process:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If the ISCI code is the same, and the spots are in the same date and time range, the spot will be treated as a match.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If the first test fails, the system checks if the ISCI is the same, and if the date is the same, but the time range isn’t the same, in which case it will be treated as a match.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If the first two tests fail, matching ISCI codes, regardless of the date and time range, will be treated as a match.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If it still doesn’t match after the first three tests, the system will take the ISCI code on the import file and identify the advertiser. Then will see if it can match up another ISCI code from that advertiser with the date and time range of the spot with the non-matching spot ID. If it can, the spot will be treated as a match.</span></li>
+</ol>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the system is able to match a spot using those tests, the spot is marked as aired and the following message will appear in the Marketron Import log:</span></p>
+<p class="rvps2"><span class="rvts6">::::::WARNING:::::::</span></p>
+<p class="rvps2"><span class="rvts6">2 spots were matched with different astcodes in Phil Collins-KAAA-FM-2015-12-07</span></p>
+<p class="rvps2"><span class="rvts6">:::::::::::::::::::</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If the system is unable to match a spot after going through all these tests, then it will indicate that it was unable to process one or more spots in the Results window and on the Marketon Import log with an “AST Missing” message:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Unable to process: Billy Crystal,KBBB-FM, attCode: 2, Spot Length: 30, ISCI: ACD-NY-500-30, astCode:13693, Air date: 2015-12-25, Air time: 1:30:00, Status: C AST missing</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">During the import, if at least one spot was able to be aligned, the record will be marked as ‘Received’. Spots that are not able to be matched are marked as Missed. If all of the spots on the record are marked as Missed, the record will be imported as Did Not Air. &nbsp;</span></p>
+<h3 class="rvps11"><span class="rvts0"><span class="rvts34">Special Mismatch Imports</span></span></h3>
+<p class="rvps2"><span class="rvts6">Occasionally, ISCI changes will be made at the network after the Marketron export has occurred. If those changes are not re-exported to Marketron, the station will air the original ISCI codes that were sent. When those original ISCI codes are imported at the network, they will no longer match what is in the Affiliate system. When this happens, the ISCI code that actually ran at the station will replace the revised ISCI code in the Affiliate system.</span></p>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Importing Partially Posted Weeks</span></span></h2>
+<p class="rvps2"><span class="rvts6">The import program matches spots sent against spots received by their AST codes. Once exported, all ASTs (spots) are set to ‘Not Received’ until the matching AST code is imported.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If there are no AST codes in the import file, the week will remain ‘Not Received’</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">An import file that has some matching AST codes will mark those matching ASTs as ‘Aired’ and leave the unmatched ASTs as ‘Not Received’</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">An import file that has matching ASTs, and those ASTs were missed in the Marketron system, will mark those matching ASTs as ‘Missed’</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">An import file that contains AST codes, but not the AST codes that the program is matching against, will leave the week as ‘Not Received’</span></li>
+</ul>
+<h2 class="rvps8"><span class="rvts0"><span class="rvts31">Import Problems</span></span></h2>
+<p class="rvps2"><span class="rvts6">Any problems that occur during the import will show in the results box.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Sometimes, the following may be seen when an error occurs. The dll sending the information to the server will create this message box when it runs into an error. &nbsp;More information about the error can be found in the menu item “Accessories-&gt; Messages”</span></p>
+<p class="rvps2"><img width="329" height="270" alt="" style="padding : 1px;" src="lib/NewItem1952.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Another source for information about the importing/exporting is in Import/Xxport log. The file is titled MarketronImportLog_MM-DD-YYYY.TXT, and is generally stored in the CSI\Prod\Data\Messages folder, but is controlled by the setting in the xml.ini file.</span></p>
+<p class="rvps3"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">If there are issues with the import, the file gets marked as 'unread_' and stored in the completed folder.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The file name will indicate the following issues:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If Counterpoint is unable to match any spot, the file will state that the spot did not match and be labeled “Unread Partial_”</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If no spots are processed, the file will be labeled “Unread”</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If the XML processing fails, the file will be labeled “NoProcess_”</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If the name test fails, the file will be labeled “UnreadFailTest_”</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps24"><span class="rvts12">If no spots were processed due to an inability to match the station, the file will be labeled “UnreadNoStation_”</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps79"><span class="rvts125">If a spot was madegood in the Marketron system, a warning message will display: WARNING Unable to process a spot because ast code was 0</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Once the issues are resolved and the file is re-imported, the “Unread_” message will be removed from the file name. &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">When the Import button is clicked, the system deletes any MarketronImportLog_MM-DD-YYYY.TXT log file over 60 days.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+
