@@ -1,0 +1,12 @@
+# Ignore everything in root
+/*
+
+# But don't ignore these specific folders
+
+!/srctraf/
+!/reports/V81
+!/srcaff/
+!/Engineer/
+
+# Don't ignore .gitignore itself
+!.gitignore
